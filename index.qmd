@@ -1,0 +1,56 @@
+---
+title: "Stáž na Odboru monitoringu biodiverzity Agentury ochrany přírody a krajiny ČR"
+lang: cs
+format: html
+---
+
+Agentura ochrany přírody a krajiny ČR (AOPK ČR) je odborná organizace Ministerstva životního prostředí. 
+Naším posláním je chránit přírodní bohatství Česka, zajišťovat péči o chráněná území a zvláště chráněné druhy 
+a poskytovat odborné podklady pro rozhodování veřejné správy i široké veřejnosti 
+([aopk.gov.cz](https://aopk.gov.cz/)).
+
+Součástí AOPK je Odbor monitoringu biodiverzity, který se specializuje na dlouhodobé sledování stavu české přírody. 
+Tento odbor vyvíjí a aktualizuje metodiky monitoringu rostlin, živočichů a přírodních biotopů, shromažďuje a analyzuje data 
+a vyhodnocuje trendy, které pomáhají porozumět změnám v přírodě i dopadům lidské činnosti. Data a analýzy slouží jako podklad 
+pro péči o konkrétní území, hodnocení stavu evropsky významných lokalit v síti Natura 2000 nebo pro strategické dokumenty ochrany přírody.
+
+Tvoje stáž v odboru monitoringu biodiverzity na tuto činnost přímo navazuje. 
+Budeš pracovat s daty o výskytu druhů rostlin a živočichů, případně s údaji o přírodních stanovištích. 
+Součástí může být i analýza toho, jak se na chráněných územích projevují zásahy péče, například pastva, kosení nebo odstraňování invazních rostlin. 
+Můžeš pracovat i na menším samostatném projektu, například vyhodnocení přínosu občanské vědy, 
+například dat z aplikace [iNaturalist](https://www.inaturalist.org/) 
+nebo české platformy [BioLog](https://biolog.nature.cz/biolog/cz), 
+pro poznání biodiverzity v Česku. Velkým přínosem je i pomoc s přípravou dat z rů… 
+Spoustu témat máme připravených, ale nebráníme se Tvým vlastním nápadům. 
+Pokud to umožní roční doba a počasí, snad si i vyzkoušíš, jak data o výskytu druhů a biotopů sbíráme v terénu.
+
+K práci využiješ několik hlavních informačních zdrojů. 
+Základním je Nálezová databáze ochrany přírody (NDOP), kde je shromážděno více než 30 milionů záznamů o výskytu organismů na území Česka. 
+Databáze je dostupná online ([portal23.nature.cz/nd](https://portal23.nature.cz/nd/)). 
+Důležitým doplňkem je systém Mapování biotopů, který poskytuje přehled o rozšíření a stavu přírodních stanovišť 
+([arcgis experience](https://experience.arcgis.com/experience/f53853f23a7241fc8f197b8675a74af2/)). 
+Prostorové a tabulkové datové sady AOPK pak najdeš na geoportálu ([data.nature.cz](https://data.nature.cz/)). 
+Seznámení s těmito zdroji je důležitým krokem, protože většina Tvých úkolů při stáži bude na těchto datech stavět.
+
+Pro efektivní práci je vhodné mít připravený základní software. 
+Pro analýzy dat se používá programovací jazyk R a jeho vývojové prostředí RStudio, které si můžeš nainstalovat zdarma 
+([CRAN](https://cran.r-project.org/) a 
+[RStudio Desktop](https://posit.co/download/rstudio-desktop/)). 
+Ke sdílení kódu a spolupráci se využívá systém Git a platforma GitHub 
+([git-scm.com](https://git-scm.com/) a 
+[github.com](https://github.com/)). 
+Nemusíš mít předchozí rozsáhlé zkušenosti, stačí základní orientace; jednoduché návody a tutoriály najdeš v dokumentaci k těmto nástrojům 
+i na mnoha otevřených online kurzech.
+
+Pro lepší porozumění hlavním tématům stáže se doporučuje seznámit se s vybranými publikacemi. 
+Článek z časopisu *Příroda* ([priroda.nature.cz/view/80](https://priroda.nature.cz/index.php/priroda/article/view/80)) popisuje způsob mapování druhů chráněných směrnicí EU v ptačích oblastech a ukazuje, jak lze data o výskytu druhů používat při ochraně chráněných území. Další článek z *Přírody* ([priroda.nature.cz/view/68](https://priroda.nature.cz/index.php/priroda/article/view/68)) poskytuje praktické pokyny pro sběr dat o cévnatých rostlinách v terénu a práci s herbáři, což je užitečné při excerpci nebo kompilaci floristických údajů. 
+Metodické materiály AOPK Ti přiblíží osvědčené postupy monitoringu biodiverzity, mapování biotopů a ochrany druhů v praxi. Přínos občanské vědy a datových platforem je dobře popsán i v článcích v časopise *BioScience*, například Bonney et al. (2009), kde je ukázáno, jak aplikace typu iNaturalist mohou rozšířit poznání biodiverzity ([BioScience](https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biaf104/8185761)).
+
+Organizačně bude Tvoje stáž probíhat pod vedením určené kontaktní osoby, která Ti zadává konkrétní úkoly, pomáhá s řešením problémů, 
+poskytuje zpětnou vazbu a je Tvým prvním kontaktem pro jakékoli otázky. Docházka je flexibilní, ale je nutné dopředu hlásit nepřítomnost. 
+Důležitý je způsob nakládání s daty – údaje o výskytu druhů jsou občas citlivé, a proto je zakázáno je šířit mimo AOPK bez souhlasu. 
+Při práci se také řídíš pravidly ochrany osobních údajů (GDPR). Přesnost a pečlivost jsou klíčové, protože výsledky Tvé práce mohou přímo ovlivnit rozhodování v ochraně přírody.
+
+Tvoje stáž není jen cvičením v práci s daty, ale příležitostí skutečně přispět k ochraně přírody v Česku. 
+Úkoly, které budeš plnit, se promítají do každodenní praxe AOPK ČR a mohou ovlivnit konkrétní rozhodnutí o péči o chráněná území nebo o ochraně druhů. 
+Využij proto stáž jako šanci naučit se nové věci, ptát se na to, čemu nerozumíš, a aktivně nabízet vlastní nápady.

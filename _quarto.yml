@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Stáž ochrany přírody"
+  site-url: https://jonasgaigr.github.io/stazochranyprirody/
+  repo-url: https://github.com/jonasgaigr/stazochranyprirody
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Úvod
+      - href: o_stazi.qmd
+        text: O stáži
+      - href: zdroje.qmd
+        text: Zdroje
+    right:
+      - href: https://aopk.gov.cz/
+        text: AOPK ČR
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    include-before-body: |
+      <div class="logo-header">
+        <a href="index.qmd">
+          <img src="images/logo-aopk.svg" alt="AOPK ČR logo" height="50">
+        </a>
+      </div>
+
+extra-files:
+  - styles.css
