@@ -14,6 +14,8 @@ website:
         text: Úvod
       - href: o_stazi.qmd
         text: O stáži
+      - href: pred_stazi.qmd
+        text: Před stáží
       - href: zdroje.qmd
         text: Zdroje
     right:
