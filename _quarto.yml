@@ -8,6 +8,7 @@ website:
   repo-url: https://github.com/jonasgaigr/stazochranyprirody
 
   navbar:
+    logo: images/logo-aopk.svg
     left:
       - href: index.qmd
         text: Úvod
@@ -23,12 +24,8 @@ format:
   html:
     theme: cosmo
     toc: true
-    include-before-body: |
-      <div class="logo-header">
-        <a href="index.qmd">
-          <img src="images/logo-aopk.svg" alt="AOPK ČR logo" height="50">
-        </a>
-      </div>
+    title-block-banner: true
+    title-block-logo: docs/images/logo-aopk.svg
 
 extra-files:
   - styles.css
