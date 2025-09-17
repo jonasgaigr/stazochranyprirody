@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-04-10">
 
-<title>O stáži – Stáž ochrany přírody</title>
+<title>Před stáží – Stáž ochrany přírody</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -98,11 +134,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Úvod</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./o_stazi.html" aria-current="page"> 
+    <a class="nav-link" href="./o_stazi.html"> 
 <span class="menu-text">O stáži</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pred_stazi.html"> 
+    <a class="nav-link active" href="./pred_stazi.html" aria-current="page"> 
 <span class="menu-text">Před stáží</span></a>
   </li>  
   <li class="nav-item">
@@ -126,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">O stáži</h1>
+      <h1 class="title">Před stáží</h1>
                       </div>
   </div>
     
@@ -134,7 +170,19 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 10, 2024</p>
+      </div>
+    </div>
     
+      <div>
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">September 17, 2025</p>
+      </div>
+    </div>
       
     </div>
     
@@ -147,10 +195,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#co-je-to-aopk-čr" id="toc-co-je-to-aopk-čr" class="nav-link active" data-scroll-target="#co-je-to-aopk-čr">Co je to AOPK ČR?</a></li>
-  <li><a href="#sledujeme-stav-biodiverzity" id="toc-sledujeme-stav-biodiverzity" class="nav-link" data-scroll-target="#sledujeme-stav-biodiverzity">Sledujeme stav biodiverzity</a></li>
-  <li><a href="#náplň-stáže" id="toc-náplň-stáže" class="nav-link" data-scroll-target="#náplň-stáže">Náplň stáže</a></li>
-  <li><a href="#s-čím-budeš-pracovat" id="toc-s-čím-budeš-pracovat" class="nav-link" data-scroll-target="#s-čím-budeš-pracovat">S čím budeš pracovat?</a></li>
+  <li><a href="#required-software-checklist" id="toc-required-software-checklist" class="nav-link active" data-scroll-target="#required-software-checklist">Required Software Checklist ✅</a></li>
+  <li><a href="#r-and-rstudio" id="toc-r-and-rstudio" class="nav-link" data-scroll-target="#r-and-rstudio">R and RStudio 💻</a>
+  <ul class="collapse">
+  <li><a href="#nainstalujaktualizuj-r" id="toc-nainstalujaktualizuj-r" class="nav-link" data-scroll-target="#nainstalujaktualizuj-r">Nainstaluj/Aktualizuj R</a></li>
+  <li><a href="#installupdate-rstudio" id="toc-installupdate-rstudio" class="nav-link" data-scroll-target="#installupdate-rstudio">Install/Update RStudio</a></li>
+  <li><a href="#rtools-windows-users-only" id="toc-rtools-windows-users-only" class="nav-link" data-scroll-target="#rtools-windows-users-only">Rtools (Windows Users Only) 🪟</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
+  </ul></li>
+  <li><a href="#git-and-github" id="toc-git-and-github" class="nav-link" data-scroll-target="#git-and-github">Git and GitHub 🌐</a>
+  <ul class="collapse">
+  <li><a href="#quick-setup-checklist" id="toc-quick-setup-checklist" class="nav-link" data-scroll-target="#quick-setup-checklist">Quick setup checklist</a></li>
+  </ul></li>
+  <li><a href="#balíčky" id="toc-balíčky" class="nav-link" data-scroll-target="#balíčky">Balíčky 📦</a>
+  <ul class="collapse">
+  <li><a href="#důležité-balíčky" id="toc-důležité-balíčky" class="nav-link" data-scroll-target="#důležité-balíčky">Důležité balíčky</a></li>
+  <li><a href="#test-if-all-packages-are-ready" id="toc-test-if-all-packages-are-ready" class="nav-link" data-scroll-target="#test-if-all-packages-are-ready">Test if all packages are ready ✅</a></li>
+  </ul></li>
+  <li><a href="#potřebuješ-pomoc" id="toc-potřebuješ-pomoc" class="nav-link" data-scroll-target="#potřebuješ-pomoc">Potřebuješ pomoc? 🆘</a></li>
   </ul>
 </nav>
     </div>
@@ -161,25 +223,154 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="co-je-to-aopk-čr" class="level2">
-<h2 class="anchored" data-anchor-id="co-je-to-aopk-čr">Co je to AOPK ČR?</h2>
-<p>Agentura ochrany přírody a krajiny ČR (AOPK ČR) je odborná organizace Ministerstva životního prostředí. Naším posláním je chránit přírodní bohatství Česka, zajišťovat péči o chráněná území a zvláště chráněné druhy a poskytovat odborné podklady pro rozhodování veřejné správy i široké veřejnosti (<a href="https://aopk.gov.cz/">aopk.gov.cz</a>).</p>
+<p>Abychom společný čas věnovaný stáži dokázali využít naplno, je dobré mít některé věci předem připravené. Níže najdeš seznam potřebného softwaru a základních</p>
+<section id="required-software-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="required-software-checklist">Required Software Checklist ✅</h2>
+<p>Before attending SSoQE 2025, please ensure you have the following software installed:</p>
+<ul class="task-list">
+<li><label><input type="checkbox"><strong>R</strong> (verze 4.5+)</label></li>
+<li><label><input type="checkbox"><strong>RStudio</strong> (aktuální verze)</label></li>
+<li><label><input type="checkbox"><strong>Rtools</strong> (pro Windows)</label></li>
+<li><label><input type="checkbox"><strong>Git</strong> (pro řízení verzí)</label></li>
+<li><label><input type="checkbox"><strong>GitHub account</strong> (zdarma)</label></li>
+</ul>
 </section>
-<section id="sledujeme-stav-biodiverzity" class="level2">
-<h2 class="anchored" data-anchor-id="sledujeme-stav-biodiverzity">Sledujeme stav biodiverzity</h2>
-<p>Součástí AOPK je Odbor monitoringu biodiverzity, který se specializuje na dlouhodobé sledování stavu české přírody. Tento odbor vyvíjí a aktualizuje metodiky monitoringu rostlin, živočichů a přírodních biotopů, shromažďuje a analyzuje data a vyhodnocuje trendy, které pomáhají porozumět změnám v přírodě i dopadům lidské činnosti. Data a analýzy slouží jako podklad pro péči o konkrétní území, hodnocení stavu evropsky významných lokalit v síti Natura 2000 nebo pro strategické dokumenty ochrany přírody.</p>
+<section id="r-and-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="r-and-rstudio">R and RStudio 💻</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/R_(programming_language)">R</a> budeš používat na práci s daty a na jejich analýzu</li>
+<li>📊 <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> je prostředí, ve kterém budeš s R pracovat</li>
+</ul>
+<section id="nainstalujaktualizuj-r" class="level3">
+<h3 class="anchored" data-anchor-id="nainstalujaktualizuj-r">Nainstaluj/Aktualizuj R</h3>
+<p>Make sure you have <strong>R version 4.5 or later</strong> installed. You can:</p>
+<ul>
+<li>Download the latest version from <a href="https://cran.r-project.org/">CRAN</a></li>
+<li>Check your current version by running <code>R.version.string</code> in R Console</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>R.version.string</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># [1] "R version 4.5.1 (2025-06-13 ucrt)"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="náplň-stáže" class="level2">
-<h2 class="anchored" data-anchor-id="náplň-stáže">Náplň stáže</h2>
-<p>Tvoje stáž v odboru monitoringu biodiverzity na tuto činnost přímo navazuje. Budeš pracovat s daty o výskytu druhů rostlin a živočichů, případně s údaji o přírodních stanovištích. Součástí může být i analýza toho, jak se na chráněných územích projevují zásahy péče, například pastva, kosení nebo odstraňování invazních rostlin. Můžeš pracovat i na menším samostatném projektu, například vyhodnocení přínosu občanské vědy, například dat z aplikace <a href="https://www.inaturalist.org/">iNaturalist</a> nebo české platformy <a href="https://biolog.nature.cz/biolog/cz">BioLog</a>, pro poznání biodiverzity v Česku. Velkým přínosem je i pomoc s přípravou dat z různých zdrojů při jejich začlenění do centrální databáze. Spoustu témat máme připravených, ale nebráníme se Tvým vlastním nápadům. Pokud to umožní roční doba a počasí, snad si i vyzkoušíš, jak data o výskytu druhů a biotopů sbíráme v terénu.</p>
+<section id="installupdate-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="installupdate-rstudio">Install/Update RStudio</h3>
+<p>Download and install the <strong>latest version</strong> of RStudio from the <a href="https://rstudio.com/products/rstudio/download/">RStudio website</a>.</p>
+<p>You can check your RStudio version by running:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>rstudioapi<span class="sc">::</span><span class="fu">versionInfo</span>()<span class="sc">$</span>version</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># [1] ‘2025.5.1.513’</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="s-čím-budeš-pracovat" class="level2">
-<h2 class="anchored" data-anchor-id="s-čím-budeš-pracovat">S čím budeš pracovat?</h2>
-<p>K práci využiješ několik hlavních informačních zdrojů. Základním je Nálezová databáze ochrany přírody (NDOP), kde je shromážděno více než 30 milionů záznamů o výskytu organismů na území Česka. Databáze je dostupná online (<a href="https://portal23.nature.cz/nd/">portal23.nature.cz/nd</a>). Důležitým doplňkem je systém Mapování biotopů, který poskytuje přehled o rozšíření a stavu přírodních stanovišť (<a href="https://experience.arcgis.com/experience/f53853f23a7241fc8f197b8675a74af2/">arcgis experience</a>). Prostorové a tabulkové datové sady AOPK pak najdeš na geoportálu (<a href="https://data.nature.cz/">data.nature.cz</a>). Seznámení s těmito zdroji je důležitým krokem, protože většina Tvých úkolů při stáži bude na těchto datech stavět.</p>
-<p>Pro efektivní práci je vhodné mít připravený základní software. Pro analýzy dat se používá programovací jazyk R a jeho vývojové prostředí RStudio, které si můžeš nainstalovat zdarma (<a href="https://cran.r-project.org/">CRAN</a> a <a href="https://posit.co/download/rstudio-desktop/">RStudio Desktop</a>). Ke sdílení kódu a spolupráci se využívá systém Git a platforma GitHub (<a href="https://git-scm.com/">git-scm.com</a> a <a href="https://github.com/">github.com</a>). Nemusíš mít předchozí rozsáhlé zkušenosti, stačí základní orientace; jednoduché návody a tutoriály najdeš v dokumentaci k těmto nástrojům i na mnoha otevřených online kurzech.</p>
-<p>Pro lepší porozumění hlavním tématům stáže se doporučuje seznámit se s vybranými publikacemi. Článek z časopisu <em>Příroda</em> (<a href="https://priroda.nature.cz/index.php/priroda/article/view/80">priroda.nature.cz/view/80</a>) popisuje způsob mapování druhů chráněných směrnicí EU v ptačích oblastech a ukazuje, jak lze data o výskytu druhů používat při ochraně chráněných území. Další článek z <em>Přírody</em> (<a href="https://priroda.nature.cz/index.php/priroda/article/view/68">priroda.nature.cz/view/68</a>) poskytuje praktické pokyny pro sběr dat o cévnatých rostlinách v terénu a práci s herbáři, což je užitečné při excerpci nebo kompilaci floristických údajů. Metodické materiály AOPK Ti přiblíží osvědčené postupy monitoringu biodiverzity, mapování biotopů a ochrany druhů v praxi. Přínos občanské vědy a datových platforem je dobře popsán i v článcích v časopise <em>BioScience</em>, například Bonney et al.&nbsp;(2009), kde je ukázáno, jak aplikace typu iNaturalist mohou rozšířit poznání biodiverzity (<a href="https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biaf104/8185761">BioScience</a>). Důležité je mít na paměti (<a href="https://www.inaturalist.org/blog/90263-a-second-experiment-to-learn-about-the-accuracy-of-inaturalist-observations">spolehlivost dat</a>) z platforem pro veřejnost.</p>
-<p>Organizačně bude Tvoje stáž probíhat pod vedením určené kontaktní osoby, která Ti zadává konkrétní úkoly, pomáhá s řešením problémů, poskytuje zpětnou vazbu a je Tvým prvním kontaktem pro jakékoli otázky. Docházka je flexibilní, ale je nutné dopředu hlásit nepřítomnost. Důležitý je způsob nakládání s daty – údaje o výskytu druhů jsou občas citlivé, a proto je zakázáno je šířit mimo AOPK bez souhlasu. Při práci se také řídíš pravidly ochrany osobních údajů (GDPR). Přesnost a pečlivost jsou klíčové, protože výsledky Tvé práce mohou přímo ovlivnit rozhodování v ochraně přírody.</p>
-<p>Tvoje stáž není jen cvičením v práci s daty, ale příležitostí skutečně přispět k ochraně přírody v Česku. Úkoly, které budeš plnit, se promítají do každodenní praxe AOPK ČR a mohou ovlivnit konkrétní rozhodnutí o péči o chráněná území nebo o ochraně druhů. Využij proto stáž jako šanci naučit se nové věci, ptát se na to, čemu nerozumíš, a aktivně nabízet vlastní nápady.</p>
+<section id="rtools-windows-users-only" class="level3">
+<h3 class="anchored" data-anchor-id="rtools-windows-users-only">Rtools (Windows Users Only) 🪟</h3>
+<p>If you’re using Windows, you’ll need <strong>Rtools</strong> for building R packages. Download the version compatible with your R version from the <a href="https://cran.r-project.org/bin/windows/Rtools/">CRAN Rtools page</a>.</p>
+<p>For R 4.5+, use Rtools 4.5 etc.</p>
+</section>
+<section id="additional-resources" class="level3">
+<h3 class="anchored" data-anchor-id="additional-resources">Additional Resources</h3>
+<p>There are plenty of additional guides available to help you:</p>
+<ul>
+<li><a href="https://ckiahtipes.github.io/">R Basics for Paleoecologists</a> by C.A. Kiahtipes</li>
+<li><a href="https://jennhuck.github.io/workshops/install_update_R.html">Install or Update R tutorial</a> by Jennifer Huck</li>
+</ul>
+</section>
+</section>
+<section id="git-and-github" class="level2">
+<h2 class="anchored" data-anchor-id="git-and-github">Git and GitHub 🌐</h2>
+<p>Please follow the tutorial <a href="https://ondrejmottl.github.io/VersionControl_gitHell/">here</a> to install Git and set up a GitHub account.</p>
+<p>Specifically, we will be using Git, GitHub, and RStudio for version control and collaboration during the workshop. 🤝</p>
+<section id="quick-setup-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="quick-setup-checklist">Quick setup checklist</h3>
+<ol type="1">
+<li><p><strong>Install Git</strong> - Download from <a href="https://git-scm.com/">git-scm.com</a></p></li>
+<li><p><strong>Create GitHub account</strong> - Sign up at <a href="https://github.com/">github.com</a></p></li>
+<li><p><strong>Configure Git</strong> with your name and email:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Your Name"</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"your.email@example.com"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Set up authentication</strong> - We’ll help you with Personal Access Tokens (PAT) during the workshop</p></li>
+</ol>
+</section>
+</section>
+<section id="balíčky" class="level2">
+<h2 class="anchored" data-anchor-id="balíčky">Balíčky 📦</h2>
+<p>Packages are like magic toolboxes 🧰 that contain a collection of functions for specific needs. We want to make sure that everyone has the necessary packages installed for this workshop.</p>
+<section id="důležité-balíčky" class="level3">
+<h3 class="anchored" data-anchor-id="důležité-balíčky">Důležité balíčky</h3>
+<p>Let’s create a list of the core packages we’ll need from CRAN:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Complete list of R packages used across SSoQE lectures</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Generated on September 11, 2025</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>ssoqe_package_list <span class="ot">&lt;-</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">c</span>(</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Project management &amp; Environment</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"here"</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"remotes"</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"renv"</span>,</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"usethis"</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Data manipulation &amp; Analysis</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"janitor"</span>,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"rlang"</span>,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"tidyverse"</span>,</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Visualization &amp; Graphics</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"showtext"</span>,</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"sysfonts"</span>,</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># File &amp; Data management</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fs"</span>,</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"jsonlite"</span>,</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"rjson"</span>,</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Document generation &amp; Reporting</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">"knitr"</span>,</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">"pander"</span>,</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">"quarto"</span>,</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="st">"tinytable"</span>,</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Regression &amp; Statistical Modelling</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">"lme4"</span>,</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Spatial &amp; Geographic analyses</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">"sf"</span>,</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">"terra"</span></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="test-if-all-packages-are-ready" class="level3">
+<h3 class="anchored" data-anchor-id="test-if-all-packages-are-ready">Test if all packages are ready ✅</h3>
+<p>Let’s do a quick test to make sure everything is in order. Running the following code should produce <code>"Everything is good to go!"</code> instead of an error message.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>missing_packages <span class="ot">&lt;-</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">installed.packages</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rownames</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">setdiff</span>(<span class="at">x =</span> ssoqe_package_list)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">length</span>(missing_packages) <span class="sc">==</span> <span class="dv">0</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>) {</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Everything is good to go!"</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">paste</span>(</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"The following packages are not installed: </span><span class="sc">\n\n</span><span class="st">"</span>,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    missing_packages <span class="sc">|&gt;</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">paste</span>(<span class="at">collapse =</span> <span class="st">", "</span>),</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"</span><span class="sc">\n\n</span><span class="st">Please install them before the workshop."</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">warning</span>()</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Now, let’s install all the missing packages:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install packages one by one with error handling</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (pkg <span class="cf">in</span> missing_packages) {</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(pkg, <span class="at">character.only =</span> <span class="cn">TRUE</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(pkg)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+</section>
+<section id="potřebuješ-pomoc" class="level2">
+<h2 class="anchored" data-anchor-id="potřebuješ-pomoc">Potřebuješ pomoc? 🆘</h2>
 
 
 </section>

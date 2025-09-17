@@ -7,20 +7,6 @@
     "text": "Tady bude přehled zdrojů."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Stáž na Odboru monitoringu biodiverzity Agentury ochrany přírody a krajiny ČR",
-    "section": "",
-    "text": "Agentura ochrany přírody a krajiny ČR (AOPK ČR) je odborná organizace Ministerstva životního prostředí, která chrání přírodní bohatství Česka a pečuje o chráněná území i zvláště chráněné druhy\n(aopk.gov.cz).\nTvoje stáž v Odboru monitoringu biodiverzity navazuje na tuto činnost. Budeš pracovat s daty o výskytu rostlin, živočichů a biotopů, hodnotit dopady péče a můžeš se zapojit i do menšího samostatného projektu nebo terénního sběru dat."
-  },
-  {
-    "objectID": "index.html#co-najdeš-na-webu",
-    "href": "index.html#co-najdeš-na-webu",
-    "title": "Stáž na Odboru monitoringu biodiverzity Agentury ochrany přírody a krajiny ČR",
-    "section": "Co najdeš na webu",
-    "text": "Co najdeš na webu\n\nO stáži – podrobnosti o náplni, organizaci a kontaktech\n\nZdroje – hlavní databáze, software a doporučená literatura\n\n\n👉 Stáž není jen cvičení, ale možnost přispět k ochraně přírody v Česku."
-  },
-  {
     "objectID": "o_stazi.html",
     "href": "o_stazi.html",
     "title": "O stáži",
@@ -53,6 +39,62 @@
     "href": "o_stazi.html#s-čím-budeš-pracovat",
     "title": "O stáži",
     "section": "S čím budeš pracovat?",
-    "text": "S čím budeš pracovat?\nK práci využiješ několik hlavních informačních zdrojů. Základním je Nálezová databáze ochrany přírody (NDOP), kde je shromážděno více než 30 milionů záznamů o výskytu organismů na území Česka. Databáze je dostupná online (portal23.nature.cz/nd). Důležitým doplňkem je systém Mapování biotopů, který poskytuje přehled o rozšíření a stavu přírodních stanovišť (arcgis experience). Prostorové a tabulkové datové sady AOPK pak najdeš na geoportálu (data.nature.cz). Seznámení s těmito zdroji je důležitým krokem, protože většina Tvých úkolů při stáži bude na těchto datech stavět.\nPro efektivní práci je vhodné mít připravený základní software. Pro analýzy dat se používá programovací jazyk R a jeho vývojové prostředí RStudio, které si můžeš nainstalovat zdarma (CRAN a RStudio Desktop). Ke sdílení kódu a spolupráci se využívá systém Git a platforma GitHub (git-scm.com a github.com). Nemusíš mít předchozí rozsáhlé zkušenosti, stačí základní orientace; jednoduché návody a tutoriály najdeš v dokumentaci k těmto nástrojům i na mnoha otevřených online kurzech.\nPro lepší porozumění hlavním tématům stáže se doporučuje seznámit se s vybranými publikacemi. Článek z časopisu Příroda (priroda.nature.cz/view/80) popisuje způsob mapování druhů chráněných směrnicí EU v ptačích oblastech a ukazuje, jak lze data o výskytu druhů používat při ochraně chráněných území. Další článek z Přírody (priroda.nature.cz/view/68) poskytuje praktické pokyny pro sběr dat o cévnatých rostlinách v terénu a práci s herbáři, což je užitečné při excerpci nebo kompilaci floristických údajů. Metodické materiály AOPK Ti přiblíží osvědčené postupy monitoringu biodiverzity, mapování biotopů a ochrany druhů v praxi. Přínos občanské vědy a datových platforem je dobře popsán i v článcích v časopise BioScience, například Bonney et al. (2009), kde je ukázáno, jak aplikace typu iNaturalist mohou rozšířit poznání biodiverzity (BioScience).\nOrganizačně bude Tvoje stáž probíhat pod vedením určené kontaktní osoby, která Ti zadává konkrétní úkoly, pomáhá s řešením problémů, poskytuje zpětnou vazbu a je Tvým prvním kontaktem pro jakékoli otázky. Docházka je flexibilní, ale je nutné dopředu hlásit nepřítomnost. Důležitý je způsob nakládání s daty – údaje o výskytu druhů jsou občas citlivé, a proto je zakázáno je šířit mimo AOPK bez souhlasu. Při práci se také řídíš pravidly ochrany osobních údajů (GDPR). Přesnost a pečlivost jsou klíčové, protože výsledky Tvé práce mohou přímo ovlivnit rozhodování v ochraně přírody.\nTvoje stáž není jen cvičením v práci s daty, ale příležitostí skutečně přispět k ochraně přírody v Česku. Úkoly, které budeš plnit, se promítají do každodenní praxe AOPK ČR a mohou ovlivnit konkrétní rozhodnutí o péči o chráněná území nebo o ochraně druhů. Využij proto stáž jako šanci naučit se nové věci, ptát se na to, čemu nerozumíš, a aktivně nabízet vlastní nápady."
+    "text": "S čím budeš pracovat?\nK práci využiješ několik hlavních informačních zdrojů. Základním je Nálezová databáze ochrany přírody (NDOP), kde je shromážděno více než 30 milionů záznamů o výskytu organismů na území Česka. Databáze je dostupná online (portal23.nature.cz/nd). Důležitým doplňkem je systém Mapování biotopů, který poskytuje přehled o rozšíření a stavu přírodních stanovišť (arcgis experience). Prostorové a tabulkové datové sady AOPK pak najdeš na geoportálu (data.nature.cz). Seznámení s těmito zdroji je důležitým krokem, protože většina Tvých úkolů při stáži bude na těchto datech stavět.\nPro efektivní práci je vhodné mít připravený základní software. Pro analýzy dat se používá programovací jazyk R a jeho vývojové prostředí RStudio, které si můžeš nainstalovat zdarma (CRAN a RStudio Desktop). Ke sdílení kódu a spolupráci se využívá systém Git a platforma GitHub (git-scm.com a github.com). Nemusíš mít předchozí rozsáhlé zkušenosti, stačí základní orientace; jednoduché návody a tutoriály najdeš v dokumentaci k těmto nástrojům i na mnoha otevřených online kurzech.\nPro lepší porozumění hlavním tématům stáže se doporučuje seznámit se s vybranými publikacemi. Článek z časopisu Příroda (priroda.nature.cz/view/80) popisuje způsob mapování druhů chráněných směrnicí EU v ptačích oblastech a ukazuje, jak lze data o výskytu druhů používat při ochraně chráněných území. Další článek z Přírody (priroda.nature.cz/view/68) poskytuje praktické pokyny pro sběr dat o cévnatých rostlinách v terénu a práci s herbáři, což je užitečné při excerpci nebo kompilaci floristických údajů. Metodické materiály AOPK Ti přiblíží osvědčené postupy monitoringu biodiverzity, mapování biotopů a ochrany druhů v praxi. Přínos občanské vědy a datových platforem je dobře popsán i v článcích v časopise BioScience, například Bonney et al. (2009), kde je ukázáno, jak aplikace typu iNaturalist mohou rozšířit poznání biodiverzity (BioScience). Důležité je mít na paměti (spolehlivost dat) z platforem pro veřejnost.\nOrganizačně bude Tvoje stáž probíhat pod vedením určené kontaktní osoby, která Ti zadává konkrétní úkoly, pomáhá s řešením problémů, poskytuje zpětnou vazbu a je Tvým prvním kontaktem pro jakékoli otázky. Docházka je flexibilní, ale je nutné dopředu hlásit nepřítomnost. Důležitý je způsob nakládání s daty – údaje o výskytu druhů jsou občas citlivé, a proto je zakázáno je šířit mimo AOPK bez souhlasu. Při práci se také řídíš pravidly ochrany osobních údajů (GDPR). Přesnost a pečlivost jsou klíčové, protože výsledky Tvé práce mohou přímo ovlivnit rozhodování v ochraně přírody.\nTvoje stáž není jen cvičením v práci s daty, ale příležitostí skutečně přispět k ochraně přírody v Česku. Úkoly, které budeš plnit, se promítají do každodenní praxe AOPK ČR a mohou ovlivnit konkrétní rozhodnutí o péči o chráněná území nebo o ochraně druhů. Využij proto stáž jako šanci naučit se nové věci, ptát se na to, čemu nerozumíš, a aktivně nabízet vlastní nápady."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stáž na Odboru monitoringu biodiverzity Agentury ochrany přírody a krajiny ČR",
+    "section": "",
+    "text": "Agentura ochrany přírody a krajiny ČR (AOPK ČR) je odborná organizace Ministerstva životního prostředí, která chrání přírodní bohatství Česka a pečuje o chráněná území i zvláště chráněné druhy\n(aopk.gov.cz).\nTvoje stáž v Odboru monitoringu biodiverzity navazuje na tuto činnost. Budeš pracovat s daty o výskytu rostlin, živočichů a biotopů, hodnotit dopady péče a můžeš se zapojit i do menšího samostatného projektu nebo terénního sběru dat."
+  },
+  {
+    "objectID": "index.html#co-najdeš-na-webu",
+    "href": "index.html#co-najdeš-na-webu",
+    "title": "Stáž na Odboru monitoringu biodiverzity Agentury ochrany přírody a krajiny ČR",
+    "section": "Co najdeš na webu",
+    "text": "Co najdeš na webu\n\nO stáži – podrobnosti o náplni, organizaci a kontaktech\n\nZdroje – hlavní databáze, software a doporučená literatura\n\n\n👉 Stáž není jen cvičení, ale možnost přispět k ochraně přírody v Česku."
+  },
+  {
+    "objectID": "pred_stazi.html",
+    "href": "pred_stazi.html",
+    "title": "Před stáží",
+    "section": "",
+    "text": "Abychom společný čas věnovaný stáži dokázali využít naplno, je dobré mít některé věci předem připravené. Níže najdeš seznam potřebného softwaru a základních"
+  },
+  {
+    "objectID": "pred_stazi.html#required-software-checklist",
+    "href": "pred_stazi.html#required-software-checklist",
+    "title": "Před stáží",
+    "section": "Required Software Checklist ✅",
+    "text": "Required Software Checklist ✅\nBefore attending SSoQE 2025, please ensure you have the following software installed:\n\nR (verze 4.5+)\nRStudio (aktuální verze)\nRtools (pro Windows)\nGit (pro řízení verzí)\nGitHub account (zdarma)"
+  },
+  {
+    "objectID": "pred_stazi.html#r-and-rstudio",
+    "href": "pred_stazi.html#r-and-rstudio",
+    "title": "Před stáží",
+    "section": "R and RStudio 💻",
+    "text": "R and RStudio 💻\n\nR budeš používat na práci s daty a na jejich analýzu\n📊 RStudio je prostředí, ve kterém budeš s R pracovat\n\n\nNainstaluj/Aktualizuj R\nMake sure you have R version 4.5 or later installed. You can:\n\nDownload the latest version from CRAN\nCheck your current version by running R.version.string in R Console\n\nR.version.string\n# [1] \"R version 4.5.1 (2025-06-13 ucrt)\"\n\n\nInstall/Update RStudio\nDownload and install the latest version of RStudio from the RStudio website.\nYou can check your RStudio version by running:\nrstudioapi::versionInfo()$version\n# [1] ‘2025.5.1.513’\n\n\nRtools (Windows Users Only) 🪟\nIf you’re using Windows, you’ll need Rtools for building R packages. Download the version compatible with your R version from the CRAN Rtools page.\nFor R 4.5+, use Rtools 4.5 etc.\n\n\nAdditional Resources\nThere are plenty of additional guides available to help you:\n\nR Basics for Paleoecologists by C.A. Kiahtipes\nInstall or Update R tutorial by Jennifer Huck"
+  },
+  {
+    "objectID": "pred_stazi.html#git-and-github",
+    "href": "pred_stazi.html#git-and-github",
+    "title": "Před stáží",
+    "section": "Git and GitHub 🌐",
+    "text": "Git and GitHub 🌐\nPlease follow the tutorial here to install Git and set up a GitHub account.\nSpecifically, we will be using Git, GitHub, and RStudio for version control and collaboration during the workshop. 🤝\n\nQuick setup checklist\n\nInstall Git - Download from git-scm.com\nCreate GitHub account - Sign up at github.com\nConfigure Git with your name and email:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@example.com\"\nSet up authentication - We’ll help you with Personal Access Tokens (PAT) during the workshop"
+  },
+  {
+    "objectID": "pred_stazi.html#balíčky",
+    "href": "pred_stazi.html#balíčky",
+    "title": "Před stáží",
+    "section": "Balíčky 📦",
+    "text": "Balíčky 📦\nPackages are like magic toolboxes 🧰 that contain a collection of functions for specific needs. We want to make sure that everyone has the necessary packages installed for this workshop.\n\nDůležité balíčky\nLet’s create a list of the core packages we’ll need from CRAN:\n\n# Complete list of R packages used across SSoQE lectures\n# Generated on September 11, 2025\nssoqe_package_list &lt;-\n  c(\n    # Project management & Environment\n    \"here\",\n    \"remotes\",\n    \"renv\",\n    \"usethis\",\n\n    # Data manipulation & Analysis\n    \"janitor\",\n    \"rlang\",\n    \"tidyverse\",\n\n    # Visualization & Graphics\n    \"showtext\",\n    \"sysfonts\",\n\n    # File & Data management\n    \"fs\",\n    \"jsonlite\",\n    \"rjson\",\n\n    # Document generation & Reporting\n    \"knitr\",\n    \"pander\",\n    \"quarto\",\n    \"tinytable\",\n\n    # Regression & Statistical Modelling\n    \"lme4\",\n\n    # Spatial & Geographic analyses\n    \"sf\",\n    \"terra\"\n\n  )\n\n\n\nTest if all packages are ready ✅\nLet’s do a quick test to make sure everything is in order. Running the following code should produce \"Everything is good to go!\" instead of an error message.\n\nmissing_packages &lt;-\n  installed.packages() %&gt;%\n  rownames() %&gt;%\n  setdiff(x = ssoqe_package_list)\n\nif (\n  length(missing_packages) == 0\n) {\n  cat(\"Everything is good to go!\")\n} else {\n  paste(\n    \"The following packages are not installed: \\n\\n\",\n    missing_packages |&gt;\n      paste(collapse = \", \"),\n    \"\\n\\nPlease install them before the workshop.\"\n  ) |&gt;\n    warning()\n}\n\nNow, let’s install all the missing packages:\n\n# Install packages one by one with error handling\nfor (pkg in missing_packages) {\n  if (!require(pkg, character.only = TRUE, quietly = TRUE)) {\n    install.packages(pkg)\n  }\n}"
+  },
+  {
+    "objectID": "pred_stazi.html#potřebuješ-pomoc",
+    "href": "pred_stazi.html#potřebuješ-pomoc",
+    "title": "Před stáží",
+    "section": "Potřebuješ pomoc? 🆘",
+    "text": "Potřebuješ pomoc? 🆘"
   }
 ]

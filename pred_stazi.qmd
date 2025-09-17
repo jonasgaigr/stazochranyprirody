@@ -1,5 +1,5 @@
 ---
-title: "Před stáží"️
+title: "Před stáží"
 format: html
 date: 2024/04/10
 date-format: long
@@ -32,10 +32,10 @@ Before attending SSoQE 2025, please ensure you have the following software insta
 
 ## R and RStudio 💻
 
-- [R](https://en.wikipedia.org/wiki/R_(programming_language)) is a fantastic software for statistical analyses.
-- 📊 [RStudio](https://posit.co/products/open-source/rstudio/) is your trusty sidekick, helping you navigate the R universe with ease.
+- [R](https://en.wikipedia.org/wiki/R_(programming_language)) budeš používat na práci s daty a na jejich analýzu
+- 📊 [RStudio](https://posit.co/products/open-source/rstudio/) je prostředí, ve kterém budeš s R pracovat
 
-### Install/Update R
+### Nainstaluj/Aktualizuj R
 
 Make sure you have **R version 4.5 or later** installed. You can:
 
@@ -71,20 +71,6 @@ There are plenty of additional guides available to help you:
 -   [R Basics for Paleoecologists](https://ckiahtipes.github.io/) by C.A. Kiahtipes
 -   [Install or Update R tutorial](https://jennhuck.github.io/workshops/install_update_R.html) by Jennifer Huck
 
-## Python and Python packages 🐍
-First, check if Python is installed on your computer by opening the **terminal** and running `python --version`. If nothing is displayed or the version is <3.12, download and install the **latest version** of Python from the [Python website](https://www.python.org/downloads/).
-
-Then, install the **required Python packages** using pip:  
-1. Open the **terminal** of either RStudio or your computer.  
-2. Install **pytorch** for building deep learning models by running the following command `pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126`  
-3. Install **torchvision** for visualising deep learning models by running the following command `pip3 install torchinfo`  
-4. Install **matplotlib** for creating plots by running the following command `pip3 install matplotlib`  
-5. Install **numpy** for mathematical operations by running the following command `pip3 install numpy`  
-6. Install **pandas** for handling data frames by running the following command `pip3 install pandas`  
-
-You can leave Python by running `exit()`.    
-
-⚠️If pip wasn't installed with Python, follow the instructions on how to install pip [here](https://www.geeksforgeeks.org/installation-guide/how-to-install-pip-on-windows/).  
 
 ## Git and GitHub 🌐
 
@@ -104,12 +90,12 @@ Specifically, we will be using Git, GitHub, and RStudio for version control and 
    ```
 4. **Set up authentication** - We'll help you with Personal Access Tokens (PAT) during the workshop
 
-## Packages 📦
+## Balíčky 📦
 
 Packages are like magic toolboxes 🧰 that contain a collection of functions for specific needs.
 We want to make sure that everyone has the necessary packages installed for this workshop.
 
-### Essential packages for SSoQE 2025
+### Důležité balíčky
 
 Let's create a list of the core packages we'll need from CRAN:
 
@@ -152,42 +138,9 @@ ssoqe_package_list <-
     "lme4",
 
     # Spatial & Geographic analyses
-    "geojsonsf",
-    "terra",
-    "sdm",
+    "sf",
+    "terra"
 
-    # Paleoecological/Scientific packages
-    "Bchron",
-    "neotoma2",
-
-    # Diversity
-    "iNEXT",
-    "vegan",
-    "picante",
-
-    # Phylogenetic analyses,
-    "ape",
-    "geiger",
-    "phytools",
-
-    # Machine learning
-    "torch",
-    "cito",
-
-    # Datasets
-    "palmerpenguins",
-
-    # Development & Programming
-    "languageserver",
-
-    # UI & Interactive elements
-    "countdown",
-    "qrcode",
-
-    # Python integration
-    "png",
-    "RcppTOML",
-    "reticulate"
   )
 ```
 
@@ -200,8 +153,8 @@ Running the following code should produce `"Everything is good to go!"` instead 
 #| label: chunk-pkg-test
 #| eval: false
 missing_packages <-
-  installed.packages() |>
-  rownames() |>
+  installed.packages() %>%
+  rownames() %>%
   setdiff(x = ssoqe_package_list)
 
 if (
@@ -232,82 +185,7 @@ for (pkg in missing_packages) {
 }
 ```
 
-### Test if RStudio has successfully connected with Python ✅
 
-Run the following code chunk in R:
+## Potřebuješ pomoc? 🆘
 
-```{r}
-#| output: false
-#| warning: false
-#| message: false
-#| eval: false
-    library(reticulate)
-```
-If you receive an error/warning message because **{reticulate} cannot find** your Python programme,
 
-1. Open the **terminal** and run the command `python -c "import sys; print(sys.version); print(sys.executable)"` to get the path of your current python version.
-
-2. Plug in the path to your python version in the following **R** code chunk and run it.
-
-```{r}
-#| output: false
-#| warning: false
-#| message: false
-#| eval: false
-reticulate::use_python(PATH/TO/PYTHON) #Enter the correct path to your python version
-```
-Now you should be ready to run Python and train deep learning models in RStudio using Markdown files! 🎉
-
-## Getting the workshop materials ‼️
-
-The internet connection might be an issue at the venue. Therefore we [STRONGLY]{.text-bold} recommend to download ALL workshop materials needed for SSoQE 2025. 
-
-## SSoQE 2025
-
-::: {.callout-important}
-
-The list of required repositories can be found [here](https://github.com/orgs/SSoQE/discussions/16).
-
-:::
-
-## How to download materials?
-
-Here is a step-by-step [guide to download the materials](https://scribehow.com/viewer/Download_a_Reproducibility_in_Science_lecture_from_GitHib__nrjukbSHTpqNcEfliqzTRw). 
-
-Simple instructions:
-
-1. Go to the [SSoQE GitHub repositories](https://github.com/orgs/SSoQE/repositories).
-2. click the `Code` button on the right side of the repository page
-3. Select `Download ZIP`
-4. Unzip the downloaded file to a folder on your computer
-
-### Private repositories
-
-Some materials might not be publicly available and require repository access.
-
-1. Go to [this Discussion thread](https://github.com/orgs/SSoQE/discussions/9) and comment with your GitHub username
-2. Wait for organizers to grant you access to the repository
-3. Check your email for the invitation to SSoQE
-4. You'll then be able to access private repositories and download materials
-
-## Final Checklist Before SSoQE 2025 🎯
-
-Before arriving at the workshop, please verify:
-
-- [ ] R version 4.5+ is installed and working
-- [ ] RStudio latest version is installed
-- [ ] Rtools installed (Windows users)
-- [ ] Git is installed and configured with your name/email
-- [ ] GitHub account created
-- [ ] All essential packages install without errors
-- [ ] Downloaded all required workshop materials
-
-## Need Help? 🆘
-
-If you encounter any issues during setup:
-
-1. Check the [SSoQE Discussion forum](https://github.com/orgs/SSoQE/discussions/categories/questions)
-2. Ask questions in the discussion thread
-3. We'll help troubleshoot during the workshop introduction
-
-**See you at SSoQE 2025!** 🎉
