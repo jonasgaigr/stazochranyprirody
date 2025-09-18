@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "zdroje.html",
-    "href": "zdroje.html",
+    "objectID": "zdroje.html#doporučená-literatura",
+    "href": "zdroje.html#doporučená-literatura",
     "title": "Zdroje",
-    "section": "",
-    "text": "Tady bude přehled zdrojů."
+    "section": "Doporučená literatura",
+    "text": "Doporučená literatura"
+  },
+  {
+    "objectID": "zdroje.html#software",
+    "href": "zdroje.html#software",
+    "title": "Zdroje",
+    "section": "Software",
+    "text": "Software"
   },
   {
     "objectID": "o_stazi.html",
@@ -24,22 +31,22 @@
     "objectID": "o_stazi.html#sledujeme-stav-biodiverzity",
     "href": "o_stazi.html#sledujeme-stav-biodiverzity",
     "title": "O stáži",
-    "section": "Sledujeme stav biodiverzity",
-    "text": "Sledujeme stav biodiverzity\nSoučástí AOPK je Odbor monitoringu biodiverzity, který se specializuje na dlouhodobé sledování stavu české přírody. Tento odbor vyvíjí a aktualizuje metodiky monitoringu rostlin, živočichů a přírodních biotopů, shromažďuje a analyzuje data a vyhodnocuje trendy, které pomáhají porozumět změnám v přírodě i dopadům lidské činnosti. Data a analýzy slouží jako podklad pro péči o konkrétní území, hodnocení stavu evropsky významných lokalit v síti Natura 2000 nebo pro strategické dokumenty ochrany přírody."
+    "section": "Sledujeme stav biodiverzity 🌱",
+    "text": "Sledujeme stav biodiverzity 🌱\nSoučástí AOPK je Odbor monitoringu biodiverzity, který se specializuje na dlouhodobé sledování stavu české přírody. Tento odbor vyvíjí a aktualizuje metodiky monitoringu rostlin, živočichů a přírodních biotopů, shromažďuje a analyzuje data a vyhodnocuje trendy, které pomáhají porozumět změnám v přírodě i dopadům lidské činnosti. Data a analýzy slouží jako podklad pro péči o konkrétní území, hodnocení stavu evropsky významných lokalit v síti Natura 2000 nebo pro strategické dokumenty ochrany přírody."
   },
   {
     "objectID": "o_stazi.html#náplň-stáže",
     "href": "o_stazi.html#náplň-stáže",
     "title": "O stáži",
-    "section": "Náplň stáže",
-    "text": "Náplň stáže\nTvoje stáž v odboru monitoringu biodiverzity na tuto činnost přímo navazuje. Budeš pracovat s daty o výskytu druhů rostlin a živočichů, případně s údaji o přírodních stanovištích. Součástí může být i analýza toho, jak se na chráněných územích projevují zásahy péče, například pastva, kosení nebo odstraňování invazních rostlin. Můžeš pracovat i na menším samostatném projektu, například vyhodnocení přínosu občanské vědy, například dat z aplikace iNaturalist nebo české platformy BioLog, pro poznání biodiverzity v Česku. Velkým přínosem je i pomoc s přípravou dat z různých zdrojů při jejich začlenění do centrální databáze. Spoustu témat máme připravených, ale nebráníme se Tvým vlastním nápadům. Pokud to umožní roční doba a počasí, snad si i vyzkoušíš, jak data o výskytu druhů a biotopů sbíráme v terénu."
+    "section": "Náplň stáže 🌱",
+    "text": "Náplň stáže 🌱\nTvoje stáž v odboru monitoringu biodiverzity na tuto činnost přímo navazuje. Budeš pracovat s daty o výskytu druhů rostlin a živočichů, případně s údaji o přírodních stanovištích. Součástí může být i analýza toho, jak se na chráněných územích projevují zásahy péče, například pastva, kosení nebo odstraňování invazních rostlin. Můžeš pracovat i na menším samostatném projektu, například vyhodnocení přínosu občanské vědy, například dat z aplikace iNaturalist nebo české platformy BioLog, pro poznání biodiverzity v Česku. Velkým přínosem je i pomoc s přípravou dat z různých zdrojů při jejich začlenění do centrální databáze. Spoustu témat máme připravených, ale nebráníme se Tvým vlastním nápadům. Pokud to umožní roční doba a počasí, snad si i vyzkoušíš, jak data o výskytu druhů a biotopů sbíráme v terénu."
   },
   {
     "objectID": "o_stazi.html#s-čím-budeš-pracovat",
     "href": "o_stazi.html#s-čím-budeš-pracovat",
     "title": "O stáži",
-    "section": "S čím budeš pracovat?",
-    "text": "S čím budeš pracovat?\nK práci využiješ několik hlavních informačních zdrojů. Základním je Nálezová databáze ochrany přírody (NDOP), kde je shromážděno více než 30 milionů záznamů o výskytu organismů na území Česka. Databáze je dostupná online (portal23.nature.cz/nd). Důležitým doplňkem je systém Mapování biotopů, který poskytuje přehled o rozšíření a stavu přírodních stanovišť (arcgis experience). Prostorové a tabulkové datové sady AOPK pak najdeš na geoportálu (data.nature.cz). Seznámení s těmito zdroji je důležitým krokem, protože většina Tvých úkolů při stáži bude na těchto datech stavět.\nPro efektivní práci je vhodné mít připravený základní software. Pro analýzy dat se používá programovací jazyk R a jeho vývojové prostředí RStudio, které si můžeš nainstalovat zdarma (CRAN a RStudio Desktop). Ke sdílení kódu a spolupráci se využívá systém Git a platforma GitHub (git-scm.com a github.com). Nemusíš mít předchozí rozsáhlé zkušenosti, stačí základní orientace; jednoduché návody a tutoriály najdeš v dokumentaci k těmto nástrojům i na mnoha otevřených online kurzech.\nPro lepší porozumění hlavním tématům stáže se doporučuje seznámit se s vybranými publikacemi. Článek z časopisu Příroda (priroda.nature.cz/view/80) popisuje způsob mapování druhů chráněných směrnicí EU v ptačích oblastech a ukazuje, jak lze data o výskytu druhů používat při ochraně chráněných území. Další článek z Přírody (priroda.nature.cz/view/68) poskytuje praktické pokyny pro sběr dat o cévnatých rostlinách v terénu a práci s herbáři, což je užitečné při excerpci nebo kompilaci floristických údajů. Metodické materiály AOPK Ti přiblíží osvědčené postupy monitoringu biodiverzity, mapování biotopů a ochrany druhů v praxi. Přínos občanské vědy a datových platforem je dobře popsán i v článcích v časopise BioScience, například Bonney et al. (2009), kde je ukázáno, jak aplikace typu iNaturalist mohou rozšířit poznání biodiverzity (BioScience). Důležité je mít na paměti (spolehlivost dat) z platforem pro veřejnost.\nOrganizačně bude Tvoje stáž probíhat pod vedením určené kontaktní osoby, která Ti zadává konkrétní úkoly, pomáhá s řešením problémů, poskytuje zpětnou vazbu a je Tvým prvním kontaktem pro jakékoli otázky. Docházka je flexibilní, ale je nutné dopředu hlásit nepřítomnost. Důležitý je způsob nakládání s daty – údaje o výskytu druhů jsou občas citlivé, a proto je zakázáno je šířit mimo AOPK bez souhlasu. Při práci se také řídíš pravidly ochrany osobních údajů (GDPR). Přesnost a pečlivost jsou klíčové, protože výsledky Tvé práce mohou přímo ovlivnit rozhodování v ochraně přírody.\nTvoje stáž není jen cvičením v práci s daty, ale příležitostí skutečně přispět k ochraně přírody v Česku. Úkoly, které budeš plnit, se promítají do každodenní praxe AOPK ČR a mohou ovlivnit konkrétní rozhodnutí o péči o chráněná území nebo o ochraně druhů. Využij proto stáž jako šanci naučit se nové věci, ptát se na to, čemu nerozumíš, a aktivně nabízet vlastní nápady."
+    "section": "S čím budeš pracovat? 🛠️",
+    "text": "S čím budeš pracovat? 🛠️\nK práci využiješ několik hlavních informačních zdrojů. Základním je Nálezová databáze ochrany přírody (NDOP), kde je shromážděno více než 30 milionů záznamů o výskytu organismů na území Česka. Databáze je dostupná online (portal23.nature.cz/nd). Důležitým doplňkem je systém Mapování biotopů, který poskytuje přehled o rozšíření a stavu přírodních stanovišť (arcgis experience). Prostorové a tabulkové datové sady AOPK pak najdeš na geoportálu (data.nature.cz). Seznámení s těmito zdroji je důležitým krokem, protože většina Tvých úkolů při stáži bude na těchto datech stavět.\nPro efektivní práci je vhodné mít připravený základní software. Pro analýzy dat se používá programovací jazyk R a jeho vývojové prostředí RStudio, které si můžeš nainstalovat zdarma (CRAN a RStudio Desktop). Ke sdílení kódu a spolupráci se využívá systém Git a platforma GitHub (git-scm.com a github.com). Nemusíš mít předchozí rozsáhlé zkušenosti, stačí základní orientace; jednoduché návody a tutoriály najdeš v dokumentaci k těmto nástrojům i na mnoha otevřených online kurzech.\nPro lepší porozumění hlavním tématům stáže se doporučuje seznámit se s vybranými publikacemi. Článek z časopisu Příroda (priroda.nature.cz/view/80) popisuje způsob mapování druhů chráněných směrnicí EU v ptačích oblastech a ukazuje, jak lze data o výskytu druhů používat při ochraně chráněných území. Další článek z Přírody (priroda.nature.cz/view/68) poskytuje praktické pokyny pro sběr dat o cévnatých rostlinách v terénu a práci s herbáři, což je užitečné při excerpci nebo kompilaci floristických údajů. Metodické materiály AOPK Ti přiblíží osvědčené postupy monitoringu biodiverzity, mapování biotopů a ochrany druhů v praxi. Přínos občanské vědy a datových platforem je dobře popsán i v článcích v časopise BioScience, například Bonney et al. (2009), kde je ukázáno, jak aplikace typu iNaturalist mohou rozšířit poznání biodiverzity (BioScience). Důležité je mít na paměti (spolehlivost dat) z platforem pro veřejnost.\nOrganizačně bude Tvoje stáž probíhat pod vedením určené kontaktní osoby, která Ti zadává konkrétní úkoly, pomáhá s řešením problémů, poskytuje zpětnou vazbu a je Tvým prvním kontaktem pro jakékoli otázky. Docházka je flexibilní, ale je nutné dopředu hlásit nepřítomnost. Důležitý je způsob nakládání s daty – údaje o výskytu druhů jsou občas citlivé, a proto je zakázáno je šířit mimo AOPK bez souhlasu. Při práci se také řídíš pravidly ochrany osobních údajů (GDPR). Přesnost a pečlivost jsou klíčové, protože výsledky Tvé práce mohou přímo ovlivnit rozhodování v ochraně přírody.\nTvoje stáž není jen cvičením v práci s daty, ale příležitostí skutečně přispět k ochraně přírody v Česku. Úkoly, které budeš plnit, se promítají do každodenní praxe AOPK ČR a mohou ovlivnit konkrétní rozhodnutí o péči o chráněná území nebo o ochraně druhů. Využij proto stáž jako šanci naučit se nové věci, ptát se na to, čemu nerozumíš, a aktivně nabízet vlastní nápady."
   },
   {
     "objectID": "index.html",
@@ -52,8 +59,29 @@
     "objectID": "index.html#co-najdeš-na-webu",
     "href": "index.html#co-najdeš-na-webu",
     "title": "Stáž na Odboru monitoringu biodiverzity Agentury ochrany přírody a krajiny ČR",
-    "section": "Co najdeš na webu",
-    "text": "Co najdeš na webu\n\nO stáži – podrobnosti o náplni, organizaci a kontaktech\n\nZdroje – hlavní databáze, software a doporučená literatura\n\n\n👉 Stáž není jen cvičení, ale možnost přispět k ochraně přírody v Česku."
+    "section": "Co najdeš na webu 🌱",
+    "text": "Co najdeš na webu 🌱\n\nO stáži – podrobnosti o náplni, organizaci a kontaktech\n\nZdroje – hlavní databáze, software a doporučená literatura\n\n\n👉 Stáž není jen cvičení, ale možnost přispět k ochraně přírody v Česku."
+  },
+  {
+    "objectID": "nabidka_temat.html",
+    "href": "nabidka_temat.html",
+    "title": "Nabídka témat",
+    "section": "",
+    "text": "🕑 předpokládaná časová náročnost: 1 měsíc\n💻 potřebné znalosti R: střední\n❓ čemu tím prospějeme: vytvoříš podklad pro analýzu využití iNaturalist v systematickém monitoringu opylovačů a dalších skupin\n🕵️ doporučená literatura:"
+  },
+  {
+    "objectID": "nabidka_temat.html#kvantifikace-podílu-dat-z-platformy-inaturalist-na-poznání-rozšíření-vybraných-skupin",
+    "href": "nabidka_temat.html#kvantifikace-podílu-dat-z-platformy-inaturalist-na-poznání-rozšíření-vybraných-skupin",
+    "title": "Nabídka témat",
+    "section": "",
+    "text": "🕑 předpokládaná časová náročnost: 1 měsíc\n💻 potřebné znalosti R: střední\n❓ čemu tím prospějeme: vytvoříš podklad pro analýzu využití iNaturalist v systematickém monitoringu opylovačů a dalších skupin\n🕵️ doporučená literatura:"
+  },
+  {
+    "objectID": "nabidka_temat.html#podrobné-hodnocení-dopadů-péče-na-ohrožené-druhy-a-biotopy",
+    "href": "nabidka_temat.html#podrobné-hodnocení-dopadů-péče-na-ohrožené-druhy-a-biotopy",
+    "title": "Nabídka témat",
+    "section": "Podrobné hodnocení dopadů péče na ohrožené druhy a biotopy",
+    "text": "Podrobné hodnocení dopadů péče na ohrožené druhy a biotopy"
   },
   {
     "objectID": "pred_stazi.html",
@@ -74,14 +102,14 @@
     "href": "pred_stazi.html#r-and-rstudio",
     "title": "Před stáží",
     "section": "R and RStudio 💻",
-    "text": "R and RStudio 💻\n\nR budeš používat na práci s daty a na jejich analýzu\n📊 RStudio je prostředí, ve kterém budeš s R pracovat\n\n\nNainstaluj/Aktualizuj R\nMake sure you have R version 4.5 or later installed. You can:\n\nDownload the latest version from CRAN\nCheck your current version by running R.version.string in R Console\n\nR.version.string\n# [1] \"R version 4.5.1 (2025-06-13 ucrt)\"\n\n\nInstall/Update RStudio\nDownload and install the latest version of RStudio from the RStudio website.\nYou can check your RStudio version by running:\nrstudioapi::versionInfo()$version\n# [1] ‘2025.5.1.513’\n\n\nRtools (Windows Users Only) 🪟\nIf you’re using Windows, you’ll need Rtools for building R packages. Download the version compatible with your R version from the CRAN Rtools page.\nFor R 4.5+, use Rtools 4.5 etc.\n\n\nAdditional Resources\nThere are plenty of additional guides available to help you:\n\nR Basics for Paleoecologists by C.A. Kiahtipes\nInstall or Update R tutorial by Jennifer Huck"
+    "text": "R and RStudio 💻\n\nR budeš používat na práci s daty a na jejich analýzu\n📊 RStudio je prostředí, ve kterém budeš s R pracovat\n\n\nNainstaluj/Aktualizuj R\nBudeme pracovat s verzí R 4.5 nebo pozdější:\n\nPoslední verze je dostupná na CRAN\nZkontrolovat nainstalovanou verzi můžeš příkazem R.version.string v R Console\n\nR.version.string\n# [1] \"R version 4.5.1 (2025-06-13 ucrt)\"\n\n\nNainstaluj/Aktualizuj RStudio\nStíhni si a nainstaluj aktuální verzi RStudio z webu RStudia.\nZkontrolovat nainstalovanou verzi můžeš příkazem:\nrstudioapi::versionInfo()$version\n# [1] ‘2025.5.1.513’\n\n\nRtools (Windows Users Only) 🪟\nIf you’re using Windows, you’ll need Rtools for building R packages. Download the version compatible with your R version from the CRAN Rtools page.\nFor R 4.5+, use Rtools 4.5 etc."
   },
   {
-    "objectID": "pred_stazi.html#git-and-github",
-    "href": "pred_stazi.html#git-and-github",
+    "objectID": "pred_stazi.html#git-a-github",
+    "href": "pred_stazi.html#git-a-github",
     "title": "Před stáží",
-    "section": "Git and GitHub 🌐",
-    "text": "Git and GitHub 🌐\nPlease follow the tutorial here to install Git and set up a GitHub account.\nSpecifically, we will be using Git, GitHub, and RStudio for version control and collaboration during the workshop. 🤝\n\nQuick setup checklist\n\nInstall Git - Download from git-scm.com\nCreate GitHub account - Sign up at github.com\nConfigure Git with your name and email:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@example.com\"\nSet up authentication - We’ll help you with Personal Access Tokens (PAT) during the workshop"
+    "section": "Git a GitHub 🌐",
+    "text": "Git a GitHub 🌐\nPlease follow the tutorial here to install Git and set up a GitHub account.\nSpecifically, we will be using Git, GitHub, and RStudio for version control and collaboration during the workshop. 🤝\n\nQuick setup checklist\n\nInstall Git - Download from git-scm.com\nCreate GitHub account - Sign up at github.com\nConfigure Git with your name and email:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@example.com\"\nSet up authentication - We’ll help you with Personal Access Tokens (PAT) during the workshop"
   },
   {
     "objectID": "pred_stazi.html#balíčky",

@@ -1,5 +1,13 @@
 ---
 title: "Zdroje"
+format: html
+lang: cs
+date: 2024/09/20
+date-format: long
+date-modified: last-modified
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
 ## Data AOPK ČR

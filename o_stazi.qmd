@@ -1,6 +1,15 @@
 ---
 title: "O stáži"
+format: html
+lang: cs
+date: 2024/09/20
+date-format: long
+date-modified: last-modified
+editor: 
+  markdown: 
+    wrap: sentence
 ---
+
 ## Co je to AOPK ČR?
 Agentura ochrany přírody a krajiny ČR (AOPK ČR) je odborná organizace Ministerstva životního prostředí. 
 Naším posláním je chránit přírodní bohatství Česka, zajišťovat péči o chráněná území a zvláště chráněné druhy a poskytovat odborné podklady pro rozhodování veřejné správy i široké veřejnosti 
