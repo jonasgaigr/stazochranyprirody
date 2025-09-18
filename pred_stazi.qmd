@@ -1,7 +1,7 @@
 ---
 title: "Před stáží"
 format: html
-date: 2024/04/10
+date: 2024/09/20
 date-format: long
 date-modified: last-modified
 editor: 
@@ -37,21 +37,21 @@ Before attending SSoQE 2025, please ensure you have the following software insta
 
 ### Nainstaluj/Aktualizuj R
 
-Make sure you have **R version 4.5 or later** installed. You can:
+Budeme pracovat **s verzí R 4.5 nebo pozdější**:
 
-- Download the latest version from [CRAN](https://cran.r-project.org/)
-- Check your current version by running `R.version.string` in R Console
+- Poslední verze je dostupná na [CRAN](https://cran.r-project.org/)
+- Zkontrolovat nainstalovanou verzi můžeš příkazem `R.version.string` v R Console
 
 ```r
 R.version.string
 # [1] "R version 4.5.1 (2025-06-13 ucrt)"
 ```
 
-### Install/Update RStudio
+### Nainstaluj/Aktualizuj RStudio
 
-Download and install the **latest version** of RStudio from the [RStudio website](https://rstudio.com/products/rstudio/download/).
+Stíhni si a nainstaluj **aktuální verzi** RStudio z [webu RStudia](https://rstudio.com/products/rstudio/download/).
 
-You can check your RStudio version by running:
+ Zkontrolovat nainstalovanou verzi můžeš příkazem:
 
 ```r
 rstudioapi::versionInfo()$version
@@ -64,15 +64,7 @@ If you're using Windows, you'll need **Rtools** for building R packages. Downloa
 
 For R 4.5+, use Rtools 4.5 etc.
 
-### Additional Resources
-
-There are plenty of additional guides available to help you:
-
--   [R Basics for Paleoecologists](https://ckiahtipes.github.io/) by C.A. Kiahtipes
--   [Install or Update R tutorial](https://jennhuck.github.io/workshops/install_update_R.html) by Jennifer Huck
-
-
-## Git and GitHub 🌐
+## Git a GitHub 🌐
 
 Please follow the tutorial [here](https://ondrejmottl.github.io/VersionControl_gitHell/) to install Git and set up a GitHub account.
 
