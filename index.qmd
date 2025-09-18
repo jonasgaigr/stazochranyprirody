@@ -11,7 +11,7 @@ Tvoje **stáž v Odboru monitoringu biodiverzity** navazuje na tuto činnost. Bu
 
 ---
 
-## Co najdeš na webu
+## Co najdeš na webu 🌱
 
 - [O stáži](o_stazi.qmd) – podrobnosti o náplni, organizaci a kontaktech  
 - [Zdroje](zdroje.qmd) – hlavní databáze, software a doporučená literatura  
