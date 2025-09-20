@@ -10,14 +10,27 @@ editor:
     wrap: sentence
 ---
 
-## Kvantifikace podílu dat z platformy iNaturalist na poznání rozšíření vybraných skupin
+## Kvantifikace podílu dat z platformy iNaturalist na poznání rozšíření vybraných skupin 🌐
 🕑 předpokládaná časová náročnost: **1 měsíc**  
 💻 potřebné znalosti R: **střední**  
-❓ čemu tím prospějeme: **vytvoříš podklad pro analýzu využití iNaturalist v systematickém monitoringu opylovačů a dalších skupin**  
+❓ čemu tím prospějeme: **vytvoříš podklad pro analýzu využití iNaturalist v systematickém monitoringu opylovačů a dalších skupin.**  
 🕵️ doporučená literatura:  
  
-## Sledování dopadu atmosferické depozice dusíku na sekundární trávníky a vřesoviště
+## Sledování dopadu atmosferické depozice dusíku na sekundární trávníky a vřesoviště 🌱
+🕑 předpokládaná časová náročnost: **1 až 2 měsíce**  
+💻 potřebné znalosti R: **střední**  
+❓ čemu tím prospějeme: **Pomůžeš s popisem toho, jak spolu souvisí spad atmosferického dusíku a stupeň degradace různých typů přírodních biotopů.**  
+🕵️ doporučená literatura:  
+ 
+## Podrobné hodnocení dopadů péče na ohrožené druhy a biotopy 🦋
+🕑 předpokládaná časová náročnost: **14 dní až 2 měsíce**  
+💻 potřebné znalosti R: **střední**  
+❓ čemu tím prospějeme: **Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.**  
+🕵️ doporučená literatura:  
 
-
-## Podrobné hodnocení dopadů péče na ohrožené druhy a biotopy
-
+## Příprava projektů občanské vědy 🔍
+🕑 předpokládaná časová náročnost: **14 dní až 2 měsíce**  
+💻 potřebné znalosti R: **střední**  
+❓ čemu tím prospějeme: **Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.**  
+🕵️ doporučená literatura:  
+ 
