@@ -183,7 +183,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Upraveno</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">18. září 2025</p>
+        <p class="date-modified">20. září 2025</p>
       </div>
     </div>
       
@@ -198,12 +198,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Na této stránce</h2>
    
   <ul>
-  <li><a href="#required-software-checklist" id="toc-required-software-checklist" class="nav-link active" data-scroll-target="#required-software-checklist">Required Software Checklist ✅</a></li>
+  <li><a href="#seznam-potřebného-softwaru" id="toc-seznam-potřebného-softwaru" class="nav-link active" data-scroll-target="#seznam-potřebného-softwaru">Seznam potřebného softwaru ✅</a></li>
   <li><a href="#r-and-rstudio" id="toc-r-and-rstudio" class="nav-link" data-scroll-target="#r-and-rstudio">R and RStudio 💻</a>
   <ul class="collapse">
   <li><a href="#nainstalujaktualizuj-r" id="toc-nainstalujaktualizuj-r" class="nav-link" data-scroll-target="#nainstalujaktualizuj-r">Nainstaluj/Aktualizuj R</a></li>
   <li><a href="#nainstalujaktualizuj-rstudio" id="toc-nainstalujaktualizuj-rstudio" class="nav-link" data-scroll-target="#nainstalujaktualizuj-rstudio">Nainstaluj/Aktualizuj RStudio</a></li>
-  <li><a href="#rtools-windows-users-only" id="toc-rtools-windows-users-only" class="nav-link" data-scroll-target="#rtools-windows-users-only">Rtools (Windows Users Only) 🪟</a></li>
+  <li><a href="#rtools-pouze-pro-windows" id="toc-rtools-pouze-pro-windows" class="nav-link" data-scroll-target="#rtools-pouze-pro-windows">Rtools (pouze pro Windows) 🪟</a></li>
   </ul></li>
   <li><a href="#git-a-github" id="toc-git-a-github" class="nav-link" data-scroll-target="#git-a-github">Git a GitHub 🌐</a>
   <ul class="collapse">
@@ -212,7 +212,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#balíčky" id="toc-balíčky" class="nav-link" data-scroll-target="#balíčky">Balíčky 📦</a>
   <ul class="collapse">
   <li><a href="#důležité-balíčky" id="toc-důležité-balíčky" class="nav-link" data-scroll-target="#důležité-balíčky">Důležité balíčky</a></li>
-  <li><a href="#test-if-all-packages-are-ready" id="toc-test-if-all-packages-are-ready" class="nav-link" data-scroll-target="#test-if-all-packages-are-ready">Test if all packages are ready ✅</a></li>
+  <li><a href="#otestuj-zda-jsou-balíčky-připravené" id="toc-otestuj-zda-jsou-balíčky-připravené" class="nav-link" data-scroll-target="#otestuj-zda-jsou-balíčky-připravené">Otestuj, zda jsou balíčky připravené ✅</a></li>
   </ul></li>
   <li><a href="#potřebuješ-pomoc" id="toc-potřebuješ-pomoc" class="nav-link" data-scroll-target="#potřebuješ-pomoc">Potřebuješ pomoc? 🆘</a></li>
   </ul>
@@ -226,9 +226,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Abychom společný čas věnovaný stáži dokázali využít naplno, je dobré mít některé věci předem připravené. Níže najdeš seznam potřebného softwaru a základních</p>
-<section id="required-software-checklist" class="level2">
-<h2 class="anchored" data-anchor-id="required-software-checklist">Required Software Checklist ✅</h2>
-<p>Before attending SSoQE 2025, please ensure you have the following software installed:</p>
+<section id="seznam-potřebného-softwaru" class="level2">
+<h2 class="anchored" data-anchor-id="seznam-potřebného-softwaru">Seznam potřebného softwaru ✅</h2>
+<p>Než začneš stáž, ujisti se, že máš nainstalovaný následující software:</p>
 <ul class="task-list">
 <li><label><input type="checkbox"><strong>R</strong> (verze 4.5+)</label></li>
 <li><label><input type="checkbox"><strong>RStudio</strong> (aktuální verze)</label></li>
@@ -255,83 +255,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="nainstalujaktualizuj-rstudio" class="level3">
 <h3 class="anchored" data-anchor-id="nainstalujaktualizuj-rstudio">Nainstaluj/Aktualizuj RStudio</h3>
-<p>Stíhni si a nainstaluj <strong>aktuální verzi</strong> RStudio z <a href="https://rstudio.com/products/rstudio/download/">webu RStudia</a>.</p>
+<p>Stáhni si a nainstaluj <strong>aktuální verzi</strong> RStudio z <a href="https://rstudio.com/products/rstudio/download/">webu RStudia</a>.</p>
 <p>Zkontrolovat nainstalovanou verzi můžeš příkazem:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>rstudioapi<span class="sc">::</span><span class="fu">versionInfo</span>()<span class="sc">$</span>version</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># [1] ‘2025.5.1.513’</span></span></code></pre></div><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="rtools-windows-users-only" class="level3">
-<h3 class="anchored" data-anchor-id="rtools-windows-users-only">Rtools (Windows Users Only) 🪟</h3>
-<p>If you’re using Windows, you’ll need <strong>Rtools</strong> for building R packages. Download the version compatible with your R version from the <a href="https://cran.r-project.org/bin/windows/Rtools/">CRAN Rtools page</a>.</p>
-<p>For R 4.5+, use Rtools 4.5 etc.</p>
+<section id="rtools-pouze-pro-windows" class="level3">
+<h3 class="anchored" data-anchor-id="rtools-pouze-pro-windows">Rtools (pouze pro Windows) 🪟</h3>
+<p>If you’re using Windows, you’ll need <strong>Rtools</strong> pro sestavování balíčků. Stáhni si verzi odpovídající tvé verzi R ze stránky <a href="https://cran.r-project.org/bin/windows/Rtools/">CRAN Rtools</a>.</p>
+<p>Pro R 4.5+ použij Rtools 4.5 apod.</p>
 </section>
 </section>
 <section id="git-a-github" class="level2">
 <h2 class="anchored" data-anchor-id="git-a-github">Git a GitHub 🌐</h2>
-<p>Please follow the tutorial <a href="https://ondrejmottl.github.io/VersionControl_gitHell/">here</a> to install Git and set up a GitHub account.</p>
-<p>Specifically, we will be using Git, GitHub, and RStudio for version control and collaboration during the workshop. 🤝</p>
+<p>Podle návodu <a href="https://ondrejmottl.github.io/VersionControl_gitHell/">zde</a> si nainstaluj Git a založ GitHub účet.</p>
+<p>Konkrétně budeme během stáže používat Git, GitHub a RStudio pro správu verzí a spolupráci. 🤝</p>
 <section id="quick-setup-checklist" class="level3">
 <h3 class="anchored" data-anchor-id="quick-setup-checklist">Quick setup checklist</h3>
 <ol type="1">
-<li><p><strong>Install Git</strong> - Download from <a href="https://git-scm.com/">git-scm.com</a></p></li>
-<li><p><strong>Create GitHub account</strong> - Sign up at <a href="https://github.com/">github.com</a></p></li>
-<li><p><strong>Configure Git</strong> with your name and email:</p>
+<li><p><strong>Nainstaluj Git</strong> - stáhni z <a href="https://git-scm.com/">git-scm.com</a></p></li>
+<li><p><strong>Založ GitHub účet</strong> - registrace na <a href="https://github.com/">github.com</a></p></li>
+<li><p><strong>Nakonfiguruj Git</strong> svým uřivatelským jménem a e-mailem:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Your Name"</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"your.email@example.com"</span></span></code></pre></div><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></div></li>
-<li><p><strong>Set up authentication</strong> - We’ll help you with Personal Access Tokens (PAT) during the workshop</p></li>
+<li><p><strong>Nastav autentizaci</strong> - s Personal Access Token (PAT) ti pomůžeme během stáže</p></li>
 </ol>
 </section>
 </section>
 <section id="balíčky" class="level2">
 <h2 class="anchored" data-anchor-id="balíčky">Balíčky 📦</h2>
-<p>Packages are like magic toolboxes 🧰 that contain a collection of functions for specific needs. We want to make sure that everyone has the necessary packages installed for this workshop.</p>
+<p>Balíčky (nebo knihovny) jsou soubory funkcí pro určité úkoly. Připrav si základní balíčky pro práci.</p>
 <section id="důležité-balíčky" class="level3">
 <h3 class="anchored" data-anchor-id="důležité-balíčky">Důležité balíčky</h3>
-<p>Let’s create a list of the core packages we’ll need from CRAN:</p>
+<p>Seznam balíčků, které budeme používat (z CRAN):</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Complete list of R packages used across SSoQE lectures</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Generated on September 11, 2025</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Seznam balíčků používaných během stáže</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Generováno 11. září 2025</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>ssoqe_package_list <span class="ot">&lt;-</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">c</span>(</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Project management &amp; Environment</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Správa projektů a prostředí</span></span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"here"</span>,</span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"remotes"</span>,</span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"renv"</span>,</span>
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"usethis"</span>,</span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Data manipulation &amp; Analysis</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Práce s daty</span></span>
 <span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"janitor"</span>,</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"rlang"</span>,</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"tidyverse"</span>,</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Visualization &amp; Graphics</span></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"showtext"</span>,</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"sysfonts"</span>,</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># File &amp; Data management</span></span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fs"</span>,</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"jsonlite"</span>,</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"rjson"</span>,</span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Document generation &amp; Reporting</span></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">"knitr"</span>,</span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">"pander"</span>,</span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">"quarto"</span>,</span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="st">"tinytable"</span>,</span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Regression &amp; Statistical Modelling</span></span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">"lme4"</span>,</span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Spatial &amp; Geographic analyses</span></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">"sf"</span>,</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">"terra"</span></span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"tidyverse"</span>,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Tvorba dokumentů a reportů</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"knitr"</span>,</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"pander"</span>,</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"quarto"</span>,</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"tinytable"</span>,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Statistické modelování</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"lme4"</span>,</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Práce s prostorovými daty</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">"sf"</span>,</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">"terra"</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="test-if-all-packages-are-ready" class="level3">
-<h3 class="anchored" data-anchor-id="test-if-all-packages-are-ready">Test if all packages are ready ✅</h3>
-<p>Let’s do a quick test to make sure everything is in order. Running the following code should produce <code>"Everything is good to go!"</code> instead of an error message.</p>
+<section id="otestuj-zda-jsou-balíčky-připravené" class="level3">
+<h3 class="anchored" data-anchor-id="otestuj-zda-jsou-balíčky-připravené">Otestuj, zda jsou balíčky připravené ✅</h3>
+<p>Spuštění následujícího kódu by mělo vypsat <code>"Vše připraveno!"</code>, pokud je vše v pořádku.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>missing_packages <span class="ot">&lt;-</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">installed.packages</span>() <span class="sc">%&gt;%</span></span>
@@ -341,18 +330,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (</span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">length</span>(missing_packages) <span class="sc">==</span> <span class="dv">0</span></span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>) {</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Everything is good to go!"</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Vše připraveno!"</span>)</span>
 <span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">paste</span>(</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"The following packages are not installed: </span><span class="sc">\n\n</span><span class="st">"</span>,</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    missing_packages <span class="sc">|&gt;</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Následující balíčky nejsou nainstalovány: </span><span class="sc">\n\n</span><span class="st">"</span>,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    missing_packages <span class="sc">%&gt;%</span></span>
 <span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">paste</span>(<span class="at">collapse =</span> <span class="st">", "</span>),</span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"</span><span class="sc">\n\n</span><span class="st">Please install them before the workshop."</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"</span><span class="sc">\n\n</span><span class="st">Nainstaluj je prosím před stáží."</span></span>
 <span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
 <span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">warning</span>()</span>
 <span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p>Now, let’s install all the missing packages:</p>
+<p>Nainstaluj chybějící balíčky:</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install packages one by one with error handling</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (pkg <span class="cf">in</span> missing_packages) {</span>
