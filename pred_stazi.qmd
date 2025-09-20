@@ -21,9 +21,9 @@ knitr::opts_chunk$set(
 
 Abychom společný čas věnovaný stáži dokázali využít naplno, je dobré mít některé věci předem připravené. Níže najdeš seznam potřebného softwaru a základních 
 
-## Required Software Checklist ✅
+## Seznam potřebného softwaru ✅
 
-Before attending SSoQE 2025, please ensure you have the following software installed:
+Než začneš stáž, ujisti se, že máš nainstalovaný následující software:
 
 - [ ] **R** (verze 4.5+)
 - [ ] **RStudio** (aktuální verze)
@@ -50,97 +50,84 @@ R.version.string
 
 ### Nainstaluj/Aktualizuj RStudio
 
-Stíhni si a nainstaluj **aktuální verzi** RStudio z [webu RStudia](https://rstudio.com/products/rstudio/download/).
+Stáhni si a nainstaluj **aktuální verzi** RStudio z [webu RStudia](https://rstudio.com/products/rstudio/download/).
 
- Zkontrolovat nainstalovanou verzi můžeš příkazem:
+Zkontrolovat nainstalovanou verzi můžeš příkazem:
 
 ```r
 rstudioapi::versionInfo()$version
 # [1] ‘2025.5.1.513’
 ```
 
-### Rtools (Windows Users Only) 🪟
+### Rtools (pouze pro Windows) 🪟
 
-If you're using Windows, you'll need **Rtools** for building R packages. Download the version compatible with your R version from the [CRAN Rtools page](https://cran.r-project.org/bin/windows/Rtools/).
+If you're using Windows, you'll need **Rtools** pro sestavování balíčků. Stáhni si verzi odpovídající tvé verzi R ze stránky [CRAN Rtools](https://cran.r-project.org/bin/windows/Rtools/).
 
-For R 4.5+, use Rtools 4.5 etc.
+Pro R 4.5+ použij Rtools 4.5 apod.
 
 ## Git a GitHub 🌐
 
-Please follow the tutorial [here](https://ondrejmottl.github.io/VersionControl_gitHell/) to install Git and set up a GitHub account.
+Podle návodu [zde](https://ondrejmottl.github.io/VersionControl_gitHell/) si nainstaluj Git a založ GitHub účet.
 
-Specifically, we will be using Git, GitHub, and RStudio for version control and collaboration during the workshop.
-🤝
+Konkrétně budeme během stáže používat Git, GitHub a RStudio pro správu verzí a spolupráci. 🤝
 
 ### Quick setup checklist
 
-1. **Install Git** - Download from [git-scm.com](https://git-scm.com/)
-2. **Create GitHub account** - Sign up at [github.com](https://github.com/)
-3. **Configure Git** with your name and email:
+1. **Nainstaluj Git** - stáhni z [git-scm.com](https://git-scm.com/)
+2. **Založ GitHub účet** - registrace na [github.com](https://github.com/)
+3. **Nakonfiguruj Git** svým uřivatelským jménem a e-mailem:
    ```bash
    git config --global user.name "Your Name"
    git config --global user.email "your.email@example.com"
    ```
-4. **Set up authentication** - We'll help you with Personal Access Tokens (PAT) during the workshop
+4. **Nastav autentizaci** - s Personal Access Token (PAT) ti pomůžeme během stáže
 
 ## Balíčky 📦
 
-Packages are like magic toolboxes 🧰 that contain a collection of functions for specific needs.
-We want to make sure that everyone has the necessary packages installed for this workshop.
+Balíčky (nebo knihovny) jsou soubory funkcí pro určité úkoly. Připrav si základní balíčky pro práci.
 
 ### Důležité balíčky
 
-Let's create a list of the core packages we'll need from CRAN:
+Seznam balíčků, které budeme používat (z CRAN):
 
 ```{r}
 #| label: chunk-pkg-list
 #| output: false
 #| warning: false
 #| message: false
-# Complete list of R packages used across SSoQE lectures
-# Generated on September 11, 2025
+# Seznam balíčků používaných během stáže
+# Generováno 11. září 2025
 ssoqe_package_list <-
   c(
-    # Project management & Environment
+    # Správa projektů a prostředí
     "here",
     "remotes",
     "renv",
     "usethis",
 
-    # Data manipulation & Analysis
+    # Práce s daty
     "janitor",
-    "rlang",
     "tidyverse",
 
-    # Visualization & Graphics
-    "showtext",
-    "sysfonts",
-
-    # File & Data management
-    "fs",
-    "jsonlite",
-    "rjson",
-
-    # Document generation & Reporting
+    # Tvorba dokumentů a reportů
     "knitr",
     "pander",
     "quarto",
     "tinytable",
 
-    # Regression & Statistical Modelling
+    # Statistické modelování
     "lme4",
 
-    # Spatial & Geographic analyses
+    # Práce s prostorovými daty
     "sf",
     "terra"
-
   )
+
 ```
 
-### Test if all packages are ready ✅
+### Otestuj, zda jsou balíčky připravené ✅
 
-Let's do a quick test to make sure everything is in order.
-Running the following code should produce `"Everything is good to go!"` instead of an error message.
+Spuštění následujícího kódu by mělo vypsat `"Vše připraveno!"`, pokud je vše v pořádku.
 
 ```{r}
 #| label: chunk-pkg-test
@@ -153,19 +140,20 @@ missing_packages <-
 if (
   length(missing_packages) == 0
 ) {
-  cat("Everything is good to go!")
+  cat("Vše připraveno!")
 } else {
   paste(
-    "The following packages are not installed: \n\n",
-    missing_packages |>
+    "Následující balíčky nejsou nainstalovány: \n\n",
+    missing_packages %>%
       paste(collapse = ", "),
-    "\n\nPlease install them before the workshop."
+    "\n\nNainstaluj je prosím před stáží."
   ) |>
     warning()
 }
+
 ```
 
-Now, let's install all the missing packages:
+Nainstaluj chybějící balíčky:
 
 ```{r}
 #| label: chunk-pkg-install
