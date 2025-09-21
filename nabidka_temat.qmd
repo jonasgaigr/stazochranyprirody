@@ -33,4 +33,6 @@ editor:
 💻 potřebné znalosti R: **střední**  
 ❓ čemu tím prospějeme: **Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.**  
 🕵️ doporučená literatura:  
+
+## Integrace datových sad do Nálezové databáze ochrany přírody 💾
  
