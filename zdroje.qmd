@@ -11,8 +11,16 @@ editor:
 ---
 
 ## Data AOPK ČR
+- [Webové stránky Agentury ochrany přírody a krajiny ČR](https://aopk.gov.cz/)  
+- [R](https://cran.r-project.org/)  
+- [RStudio](https://rstudio.com/products/rstudio/download/)  
+- [Rtools](https://cran.r-project.org/bin/windows/Rtools/)  
+- [Git](https://git-scm.com/)  
+- [GitHub](https://github.com/)
 
 ## Doporučená literatura
+- [Prezentace Ondřeje Mottla o verzování kódu](https://ondrejmottl.github.io/VersionControl_gitHell/) 
+
 
 ## Software
 
