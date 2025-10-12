@@ -24,7 +24,7 @@ editor:
 ## Podrobné hodnocení dopadů péče na ohrožené druhy a biotopy 🦋
 🕑 předpokládaná časová náročnost: **14 dní až 2 měsíce**  
 💻 potřebné znalosti: **střední znalost přáce v R**  
-❓ čemu tím prospěješ**Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.** 
+❓ čemu tím prospěješ: **Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.** 
 🕵️ doporučená literatura
 
 ## Příprava projektů občanské vědy 🔍
@@ -34,7 +34,10 @@ editor:
 🕵️ doporučená literatura:
 
 ## Integrace datových sad do Nálezové databáze ochrany přírody 💾
+🕑 předpokládaná časová náročnost: **14 dní**  
+💻 potřebné znalosti: **pečlivost, základní práce s MS Excel*  
+❓ čemu tím prospějeme: **Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.**  
+🕵️ doporučená literatura:
 
-
-## Biologický průzkum vybraného území 
+## Biologický průzkum vybraného území 🕵
  
