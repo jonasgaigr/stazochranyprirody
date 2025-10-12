@@ -117,7 +117,7 @@ ssoqe_package_list <-
 
     # Statistické modelování
     "lme4",
-    "glmmTMB"
+    "glmmTMB",
 
     # Práce s prostorovými daty
     "sf",
