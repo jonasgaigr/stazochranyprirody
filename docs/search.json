@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "zdroje.html",
+    "href": "zdroje.html",
+    "title": "Zdroje",
+    "section": "",
+    "text": "Webové stránky Agentury ochrany přírody a krajiny ČR\n\nR\n\nRStudio\n\nRtools\n\nGit\n\nGitHub"
+  },
+  {
+    "objectID": "zdroje.html#data-aopk-čr",
+    "href": "zdroje.html#data-aopk-čr",
+    "title": "Zdroje",
+    "section": "",
+    "text": "Webové stránky Agentury ochrany přírody a krajiny ČR\n\nR\n\nRStudio\n\nRtools\n\nGit\n\nGitHub"
+  },
+  {
     "objectID": "zdroje.html#doporučená-literatura",
     "href": "zdroje.html#doporučená-literatura",
     "title": "Zdroje",
     "section": "Doporučená literatura",
-    "text": "Doporučená literatura"
+    "text": "Doporučená literatura\n\nPrezentace Ondřeje Mottla o verzování kódu"
   },
   {
     "objectID": "zdroje.html#software",
@@ -31,8 +45,8 @@
     "objectID": "o_stazi.html#sledujeme-stav-biodiverzity",
     "href": "o_stazi.html#sledujeme-stav-biodiverzity",
     "title": "O stáži",
-    "section": "Sledujeme stav biodiverzity 🌱",
-    "text": "Sledujeme stav biodiverzity 🌱\nSoučástí AOPK je Odbor monitoringu biodiverzity, který se specializuje na dlouhodobé sledování stavu české přírody. Tento odbor vyvíjí a aktualizuje metodiky monitoringu rostlin, živočichů a přírodních biotopů, shromažďuje a analyzuje data a vyhodnocuje trendy, které pomáhají porozumět změnám v přírodě i dopadům lidské činnosti. Data a analýzy slouží jako podklad pro péči o konkrétní území, hodnocení stavu evropsky významných lokalit v síti Natura 2000 nebo pro strategické dokumenty ochrany přírody."
+    "section": "Sledujeme stav biodiverzity 🔍",
+    "text": "Sledujeme stav biodiverzity 🔍\nSoučástí AOPK je Odbor monitoringu biodiverzity, který se specializuje na dlouhodobé sledování stavu české přírody. Tento odbor vyvíjí a aktualizuje metodiky monitoringu rostlin, živočichů a přírodních biotopů, shromažďuje a analyzuje data a vyhodnocuje trendy, které pomáhají porozumět změnám v přírodě i dopadům lidské činnosti. Data a analýzy slouží jako podklad pro péči o konkrétní území, hodnocení stavu evropsky významných lokalit v síti Natura 2000 nebo pro strategické dokumenty ochrany přírody."
   },
   {
     "objectID": "o_stazi.html#náplň-stáže",
@@ -67,28 +81,49 @@
     "href": "nabidka_temat.html",
     "title": "Nabídka témat",
     "section": "",
-    "text": "🕑 předpokládaná časová náročnost: 1 měsíc\n💻 potřebné znalosti R: střední\n❓ čemu tím prospějeme: vytvoříš podklad pro analýzu využití iNaturalist v systematickém monitoringu opylovačů a dalších skupin.\n🕵️ doporučená literatura:"
+    "text": "🕑 předpokládaná časová náročnost: 1 měsíc\n💻 potřebné znalosti: střední znalost přáce v R\n❓ čemu tím prospěješ: vytvoříš podklad pro analýzu využití iNaturalist v systematickém monitoringu opylovačů a dalších skupin.\n🕵️ doporučená literatura:[A larger experiment to learn about the accuracy of iNaturalist observations] (https://www.inaturalist.org/blog/91400-a-larger-experiment-to-learn-about-the-accuracy-of-inaturalist-observations)"
   },
   {
     "objectID": "nabidka_temat.html#kvantifikace-podílu-dat-z-platformy-inaturalist-na-poznání-rozšíření-vybraných-skupin",
     "href": "nabidka_temat.html#kvantifikace-podílu-dat-z-platformy-inaturalist-na-poznání-rozšíření-vybraných-skupin",
     "title": "Nabídka témat",
     "section": "",
-    "text": "🕑 předpokládaná časová náročnost: 1 měsíc\n💻 potřebné znalosti R: střední\n❓ čemu tím prospějeme: vytvoříš podklad pro analýzu využití iNaturalist v systematickém monitoringu opylovačů a dalších skupin.\n🕵️ doporučená literatura:"
+    "text": "🕑 předpokládaná časová náročnost: 1 měsíc\n💻 potřebné znalosti: střední znalost přáce v R\n❓ čemu tím prospěješ: vytvoříš podklad pro analýzu využití iNaturalist v systematickém monitoringu opylovačů a dalších skupin.\n🕵️ doporučená literatura:[A larger experiment to learn about the accuracy of iNaturalist observations] (https://www.inaturalist.org/blog/91400-a-larger-experiment-to-learn-about-the-accuracy-of-inaturalist-observations)"
   },
   {
     "objectID": "nabidka_temat.html#sledování-dopadu-atmosferické-depozice-dusíku-na-sekundární-trávníky-a-vřesoviště",
     "href": "nabidka_temat.html#sledování-dopadu-atmosferické-depozice-dusíku-na-sekundární-trávníky-a-vřesoviště",
     "title": "Nabídka témat",
     "section": "Sledování dopadu atmosferické depozice dusíku na sekundární trávníky a vřesoviště 🌱",
-    "text": "Sledování dopadu atmosferické depozice dusíku na sekundární trávníky a vřesoviště 🌱\n🕑 předpokládaná časová náročnost: 1 až 2 měsíce\n💻 potřebné znalosti R: střední\n❓ čemu tím prospějeme: Pomůžeš s popisem toho, jak spolu souvisí spad atmosferického dusíku a stupeň degradace různých typů přírodních biotopů.\n🕵️ doporučená literatura:"
+    "text": "Sledování dopadu atmosferické depozice dusíku na sekundární trávníky a vřesoviště 🌱\n🕑 předpokládaná časová náročnost: 1 až 2 měsíce\n💻 potřebné znalosti: střední znalost přáce v R\n❓ čemu tím prospěješ: Pomůžeš s popisem toho, jak spolu souvisí spad atmosferického dusíku a stupeň degradace různých typů přírodních biotopů."
   },
   {
     "objectID": "nabidka_temat.html#podrobné-hodnocení-dopadů-péče-na-ohrožené-druhy-a-biotopy",
     "href": "nabidka_temat.html#podrobné-hodnocení-dopadů-péče-na-ohrožené-druhy-a-biotopy",
     "title": "Nabídka témat",
     "section": "Podrobné hodnocení dopadů péče na ohrožené druhy a biotopy 🦋",
-    "text": "Podrobné hodnocení dopadů péče na ohrožené druhy a biotopy 🦋\n🕑 předpokládaná časová náročnost: 14 dní až 2 měsíce\n💻 potřebné znalosti R: střední\n❓ čemu tím prospějeme: Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.\n🕵️ doporučená literatura:"
+    "text": "Podrobné hodnocení dopadů péče na ohrožené druhy a biotopy 🦋\n🕑 předpokládaná časová náročnost: 14 dní až 2 měsíce\n💻 potřebné znalosti: střední znalost přáce v R\n❓ čemu tím prospěješVyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu. 🕵️ doporučená literatura"
+  },
+  {
+    "objectID": "nabidka_temat.html#příprava-projektů-občanské-vědy",
+    "href": "nabidka_temat.html#příprava-projektů-občanské-vědy",
+    "title": "Nabídka témat",
+    "section": "Příprava projektů občanské vědy 🔍",
+    "text": "Příprava projektů občanské vědy 🔍\n🕑 předpokládaná časová náročnost: 14 dní až 2 měsíce\n💻 potřebné znalosti: střední znalost přáce v R\n❓ čemu tím prospějeme: Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.\n🕵️ doporučená literatura:"
+  },
+  {
+    "objectID": "nabidka_temat.html#integrace-datových-sad-do-nálezové-databáze-ochrany-přírody",
+    "href": "nabidka_temat.html#integrace-datových-sad-do-nálezové-databáze-ochrany-přírody",
+    "title": "Nabídka témat",
+    "section": "Integrace datových sad do Nálezové databáze ochrany přírody 💾",
+    "text": "Integrace datových sad do Nálezové databáze ochrany přírody 💾"
+  },
+  {
+    "objectID": "nabidka_temat.html#biologický-průzkum-vybraného-území",
+    "href": "nabidka_temat.html#biologický-průzkum-vybraného-území",
+    "title": "Nabídka témat",
+    "section": "Biologický průzkum vybraného území",
+    "text": "Biologický průzkum vybraného území"
   },
   {
     "objectID": "pred_stazi.html",
@@ -123,7 +158,7 @@
     "href": "pred_stazi.html#balíčky",
     "title": "Před stáží",
     "section": "Balíčky 📦",
-    "text": "Balíčky 📦\nBalíčky (nebo knihovny) jsou soubory funkcí pro určité úkoly. Připrav si základní balíčky pro práci.\n\nDůležité balíčky\nSeznam balíčků, které budeme používat (z CRAN):\n\n# Seznam balíčků používaných během stáže\n# Generováno 11. září 2025\nssoqe_package_list &lt;-\n  c(\n    # Správa projektů a prostředí\n    \"here\",\n    \"remotes\",\n    \"renv\",\n    \"usethis\",\n\n    # Práce s daty\n    \"janitor\",\n    \"tidyverse\",\n\n    # Tvorba dokumentů a reportů\n    \"knitr\",\n    \"pander\",\n    \"quarto\",\n    \"tinytable\",\n\n    # Statistické modelování\n    \"lme4\",\n\n    # Práce s prostorovými daty\n    \"sf\",\n    \"terra\"\n  )\n\n\n\nOtestuj, zda jsou balíčky připravené ✅\nSpuštění následujícího kódu by mělo vypsat \"Vše připraveno!\", pokud je vše v pořádku.\n\nmissing_packages &lt;-\n  installed.packages() %&gt;%\n  rownames() %&gt;%\n  setdiff(x = ssoqe_package_list)\n\nif (\n  length(missing_packages) == 0\n) {\n  cat(\"Vše připraveno!\")\n} else {\n  paste(\n    \"Následující balíčky nejsou nainstalovány: \\n\\n\",\n    missing_packages %&gt;%\n      paste(collapse = \", \"),\n    \"\\n\\nNainstaluj je prosím před stáží.\"\n  ) |&gt;\n    warning()\n}\n\nNainstaluj chybějící balíčky:\n\n# Install packages one by one with error handling\nfor (pkg in missing_packages) {\n  if (!require(pkg, character.only = TRUE, quietly = TRUE)) {\n    install.packages(pkg)\n  }\n}"
+    "text": "Balíčky 📦\nBalíčky (nebo knihovny) jsou soubory funkcí pro určité úkoly. Připrav si základní balíčky pro práci.\n\nDůležité balíčky\nSeznam balíčků, které budeme používat (z CRAN):\n\n# Seznam balíčků používaných během stáže\n# Generováno 11. září 2025\nssoqe_package_list &lt;-\n  c(\n    # Správa projektů a prostředí\n    \"here\",\n    \"remotes\",\n    \"renv\",\n    \"usethis\",\n\n    # Práce s daty\n    \"janitor\",\n    \"tidyverse\",\n\n    # Tvorba dokumentů a reportů\n    \"knitr\",\n    \"pander\",\n    \"quarto\",\n    \"tinytable\",\n\n    # Statistické modelování\n    \"lme4\",\n    \"glmmTMB\",\n\n    # Práce s prostorovými daty\n    \"sf\",\n    \"terra\"\n  )\n\n\n\nOtestuj, zda jsou balíčky připravené ✅\nSpuštění následujícího kódu by mělo vypsat \"Vše připraveno!\", pokud je vše v pořádku.\n\nmissing_packages &lt;-\n  installed.packages() %&gt;%\n  rownames() %&gt;%\n  setdiff(x = ssoqe_package_list)\n\nif (\n  length(missing_packages) == 0\n) {\n  cat(\"Vše připraveno!\")\n} else {\n  paste(\n    \"Následující balíčky nejsou nainstalovány: \\n\\n\",\n    missing_packages %&gt;%\n      paste(collapse = \", \"),\n    \"\\n\\nNainstaluj je prosím před stáží.\"\n  ) |&gt;\n    warning()\n}\n\nNainstaluj chybějící balíčky:\n\n# Install packages one by one with error handling\nfor (pkg in missing_packages) {\n  if (!require(pkg, character.only = TRUE, quietly = TRUE)) {\n    install.packages(pkg)\n  }\n}"
   },
   {
     "objectID": "pred_stazi.html#potřebuješ-pomoc",
