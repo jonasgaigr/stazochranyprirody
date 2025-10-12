@@ -35,7 +35,7 @@ editor:
 
 ## Integrace datových sad do Nálezové databáze ochrany přírody 💾
 🕑 předpokládaná časová náročnost: **14 dní**  
-💻 potřebné znalosti: **pečlivost, základní práce s MS Excel*  
+💻 potřebné znalosti: **pečlivost, základní práce s MS Excel** 
 ❓ čemu tím prospějeme: **Vyhodnocením dopadu péče na vybraný druh pomůžeš správnému nastavení opatření v budoucnu.**   
 🕵️ doporučená literatura:
 
