@@ -6,6 +6,7 @@ website:
   title: "Stáž ochrany přírody"
   site-url: https://jonasgaigr.github.io/stazochranyprirody/
   repo-url: https://github.com/jonasgaigr/stazochranyprirody
+  favicon: images/favicon-aopk.png
 
   navbar:
     logo: images/logo-aopk.svg
