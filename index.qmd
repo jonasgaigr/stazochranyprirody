@@ -20,6 +20,8 @@ Tvoje **stáž v Odboru monitoringu biodiverzity** navazuje na tuto činnost. Bu
 ## Co najdeš na webu 🌱
 
 - [O stáži](o_stazi.qmd) – podrobnosti o náplni, organizaci a kontaktech  
+- [Před stáži](pred_stazi.qmd) – seznam kroků, které je lepší stihnout před samotnou stáží 
+- [Nabídka témat](nabidka_temat.qmd) – vypsaná témata stáže, vlastním tématům se nebráníme  
 - [Zdroje](zdroje.qmd) – hlavní databáze, software a doporučená literatura  
 
 ---
